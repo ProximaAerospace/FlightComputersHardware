@@ -6,6 +6,102 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 190.5 38.1)
+		(size 57.15 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4704f5be-58a0-4191-b01f-84980581c4a3")
+		(property "Sheetname" "PSU"
+			(at 190.5 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 190.5 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vin_ADC" output
+			(at 190.5 41.91 180)
+			(uuid "421668d6-700e-44a9-9ad3-88d2fe779c67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_PG" output
+			(at 190.5 44.45 180)
+			(uuid "fdbe44bb-bd91-48f4-8218-c40223da544b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3v3_PG" output
+			(at 190.5 46.99 180)
+			(uuid "342b6da2-73b6-48b7-b451-1eec43d07be8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3v3_EN" input
+			(at 190.5 49.53 180)
+			(uuid "d7e030eb-eb7b-42e2-a7ce-ff287409d3cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_EN" input
+			(at 190.5 52.07 180)
+			(uuid "e129570a-ce86-4b68-b5bb-417c86d69b6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Main_Board"
+				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 91.44 36.83)
 		(size 49.53 26.67)
 		(exclude_from_sim no)
@@ -43,30 +139,116 @@
 				(justify left top)
 			)
 		)
-		(pin "TX<-ESP" input
-			(at 140.97 43.18 0)
+		(pin "TX<-ESP" output
+			(at 91.44 54.61 180)
 			(uuid "38ee90d6-eed4-466e-92c4-42e05d9b3880")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(pin "RX<-ESP" output
-			(at 140.97 45.72 0)
+		(pin "RX<-ESP" input
+			(at 91.44 57.15 180)
 			(uuid "466dd381-7f61-4e94-9423-ccebab014fdd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+		(pin "MOSI_SPI3" input
+			(at 91.44 39.37 180)
+			(uuid "a1c6ffe4-c145-4a70-af4b-6f28d3203ab1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO_SPI3" output
+			(at 91.44 41.91 180)
+			(uuid "9b67b233-ffb3-42ea-813b-fadadd9b8735")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS1_SPI3" output
+			(at 91.44 44.45 180)
+			(uuid "5b9f60f8-3580-4488-be48-ec4cd5f2e4e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_SPI3" output
+			(at 91.44 46.99 180)
+			(uuid "5d36ca97-881c-4752-bd36-d5c1188eb3cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 39.37)
+		(size 53.34 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f339aa79-d1b1-4b60-b951-815db04e9281")
+		(property "Sheetname" "Interfaces"
+			(at 27.94 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interfaces.kicad_sch"
+			(at 27.94 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_Board"
+				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33"
+					(page "7")
 				)
 			)
 		)

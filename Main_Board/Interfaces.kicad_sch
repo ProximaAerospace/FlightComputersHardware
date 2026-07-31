@@ -1,0 +1,50 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "be747778-0c75-485d-8168-12a2926691e1")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 69.85 92.71) (xy 72.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25850521-30c5-49a1-98f3-1cc4cb023bd7")
+	)
+	(wire
+		(pts
+			(xy 69.85 95.25) (xy 72.39 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d73f58-bd85-45fb-b4fe-804b5509d3ea")
+	)
+	(hierarchical_label "RX<-ESP"
+		(shape input)
+		(at 69.85 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "617f7ea5-f50a-4073-803d-df554109b548")
+	)
+	(hierarchical_label "TX<-ESP"
+		(shape output)
+		(at 69.85 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7ac58c9-16c6-401d-945c-c1fc3fcf72f4")
+	)
+)
