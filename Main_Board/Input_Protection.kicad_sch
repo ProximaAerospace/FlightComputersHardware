@@ -586,6 +586,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Magnetic:DRV5033AJxDBZ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 2.54 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DRV5033AJxDBZ"
+				(at 2.54 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5033.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "±6.9 / ±3.5 mT, 20-kHz, 2-38V, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Digital Omnipolar Switch Hall Effect Sensor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DRV5033AJxDBZ_1_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -749,7 +899,13 @@
 		(at 102.87 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b6c113a-192e-4b78-a107-82c1f0dbba33")
+		(uuid "665e352e-f08c-4f2f-8004-583be6a3601b")
+	)
+	(junction
+		(at 59.69 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69205830-6333-4252-bdd3-797d9e6ada9d")
 	)
 	(junction
 		(at 187.96 92.71)
@@ -770,6 +926,12 @@
 		(uuid "7cc73144-0657-4288-bfab-71a0c65ee26c")
 	)
 	(junction
+		(at 82.55 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "833d763d-3018-4665-8912-18651b3d9bdf")
+	)
+	(junction
 		(at 177.8 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -780,6 +942,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4e4a964-8e6a-4c9a-8b26-cb04aa15e306")
+	)
+	(junction
+		(at 102.87 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf4b1297-5c54-4f21-b558-8fef72291c8f")
 	)
 	(junction
 		(at 140.97 111.76)
@@ -793,7 +961,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 92.71) (xy 102.87 92.71)
+			(xy 53.34 92.71) (xy 59.69 92.71)
 		)
 		(stroke
 			(width 0)
@@ -883,6 +1051,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 100.33) (xy 59.69 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25cc6253-2878-4dec-936c-034ea5e661f9")
+	)
+	(wire
+		(pts
 			(xy 187.96 92.71) (xy 199.39 92.71)
 		)
 		(stroke
@@ -920,6 +1098,16 @@
 			(type default)
 		)
 		(uuid "37249750-059a-4ef5-9866-c522581bcc2e")
+	)
+	(wire
+		(pts
+			(xy 82.55 96.52) (xy 82.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38de4f27-ecc5-46bb-a74e-c092bf3cbaef")
 	)
 	(wire
 		(pts
@@ -1003,6 +1191,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 106.68) (xy 102.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8832452c-6fe7-4d7e-b056-d4df1bb6eb0e")
+	)
+	(wire
+		(pts
 			(xy 187.96 111.76) (xy 199.39 111.76)
 		)
 		(stroke
@@ -1010,6 +1208,16 @@
 			(type default)
 		)
 		(uuid "8d8c7ec8-56bd-4d36-8439-53bf55d59348")
+	)
+	(wire
+		(pts
+			(xy 82.55 118.11) (xy 82.55 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a43a87-f720-49ea-9d2a-33cd33b257f2")
 	)
 	(wire
 		(pts
@@ -1063,6 +1271,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 92.71) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2d50d1-d9cd-44a7-8ab7-0b8e8d85db61")
+	)
+	(wire
+		(pts
 			(xy 161.29 97.79) (xy 161.29 100.33)
 		)
 		(stroke
@@ -1113,6 +1331,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 106.68) (xy 102.87 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94e0e9c-7e93-44d5-bdc3-ac2f777c8804")
+	)
+	(wire
+		(pts
 			(xy 102.87 101.6) (xy 102.87 102.87)
 		)
 		(stroke
@@ -1141,6 +1369,16 @@
 		)
 		(uuid "fb374e9a-39ae-41d7-99fc-2cbd1e50d634")
 	)
+	(wire
+		(pts
+			(xy 59.69 92.71) (xy 82.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf059e1-d247-4706-bf21-1fa5c238d8b4")
+	)
 	(hierarchical_label "Vin_Protected"
 		(shape output)
 		(at 223.52 92.71 0)
@@ -1154,7 +1392,7 @@
 	)
 	(hierarchical_label "Vbatt"
 		(shape input)
-		(at 93.98 92.71 180)
+		(at 53.34 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1244,6 +1482,168 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 82.55 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f64d525-588a-4342-9083-0005151e6fbd")
+		(property "Reference" "#PWR079"
+			(at 82.55 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 122.174 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8e0e768-86e9-49c2-8bc3-4e8dc49774fd")
+		)
+		(instances
+			(project "Main_Board"
+				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5033AJxDBZ")
+		(at 85.09 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60ea114a-c55f-4a50-9655-1ca08a927d86")
+		(property "Reference" "U7"
+			(at 78.74 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS351AT"
+			(at 78.74 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 85.09 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5033.pdf"
+			(at 85.09 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "±6.9 / ±3.5 mT, 20-kHz, 2-38V, SOT-23"
+			(at 85.09 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06745d61-6fdd-4e5d-a1c2-a30094b8d7f3")
+		)
+		(pin "3"
+			(uuid "e02685fa-c367-447f-81f1-e7c2fe9b6870")
+		)
+		(pin "2"
+			(uuid "05f6fd96-c797-4511-9f48-b671005c6970")
+		)
+		(instances
+			(project "Main_Board"
+				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 210.82 101.6 0)
 		(unit 1)
@@ -1320,6 +1720,83 @@
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "714516cf-f4a0-44a1-8d03-361dc99990e0")
+		(property "Reference" "#PWR080"
+			(at 59.69 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 106.934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3ed143d-c2ef-4607-828d-8a9ffbd85c55")
+		)
+		(instances
+			(project "Main_Board"
+				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -1665,6 +2142,88 @@
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 59.69 96.52 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84a1b2bc-6d1e-4288-a86f-0411836b61f8")
+		(property "Reference" "C35"
+			(at 57.15 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 57.15 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.7248 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f48095e7-4f06-4af9-8142-4adf4b60c829")
+		)
+		(pin "1"
+			(uuid "d61040b3-ea46-4aa9-972d-70c89ea64105")
+		)
+		(instances
+			(project "Main_Board"
+				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
+					(reference "C35")
 					(unit 1)
 				)
 			)
