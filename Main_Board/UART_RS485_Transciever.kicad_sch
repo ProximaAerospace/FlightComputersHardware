@@ -1240,7 +1240,7 @@
 	)
 	(text "Add DIP switches on modules to toggle the \n120 ohm termination resistor on the bus"
 		(exclude_from_sim no)
-		(at 188.976 110.744 0)
+		(at 171.958 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)

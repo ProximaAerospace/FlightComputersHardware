@@ -393,7 +393,7 @@
 				(justify left)
 			)
 		)
-		(pin "MODULE_BUS_DIR" input
+		(pin "MODULE_BUS_DIR" output
 			(at 189.23 96.52 180)
 			(uuid "6e97ce1b-ba4c-4262-a313-8b33e2e15449")
 			(effects
