@@ -1096,6 +1096,12 @@
 		)
 	)
 	(junction
+		(at 67.31 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05174b28-dc78-481c-8565-32187cc5c552")
+	)
+	(junction
 		(at 187.96 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1142,12 +1148,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5391854-cf1f-4607-9910-13434554cc46")
-	)
-	(junction
-		(at 67.31 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f99a6f1f-12f9-490e-809c-e603d9ed916a")
 	)
 	(wire
 		(pts
@@ -1321,7 +1321,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 63.5) (xy 67.31 63.5)
+			(xy 64.77 63.5) (xy 67.31 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1539,6 +1539,17 @@
 		)
 		(uuid "ec8f26a7-9a14-483e-9fbd-f42925bd1cb9")
 	)
+	(hierarchical_label "V_In"
+		(shape input)
+		(at 64.77 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5fa53a2b-7352-470a-bab1-d6fb3561eecb")
+	)
 	(hierarchical_label "V_out"
 		(shape output)
 		(at 194.31 63.5 0)
@@ -1560,17 +1571,6 @@
 			(justify right)
 		)
 		(uuid "a0fe44dd-d0a6-413c-afc4-1c52f1971ed8")
-	)
-	(hierarchical_label "V_In"
-		(shape input)
-		(at 53.34 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cb435a6a-e6df-462c-a6de-f8dbda257c05")
 	)
 	(symbol
 		(lib_id "power:GND")

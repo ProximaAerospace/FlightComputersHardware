@@ -648,7 +648,7 @@
         "uuid": "7481738f-7c20-40bb-99b0-6ccd4168db33"
       }
     ],
-    "used_designators": "U1-2,D1-2,#PWR1-23,#PWR55-58,J1-2,R1-6,R14-23,C1-6,C26",
+    "used_designators": "R17,R24-25,IC1,C27-29,#PWR59",
     "variants": []
   },
   "sheets": [
@@ -679,6 +679,10 @@
     [
       "f339aa79-d1b1-4b60-b951-815db04e9281",
       "Interfaces"
+    ],
+    [
+      "9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b",
+      "Input_Protection"
     ]
   ],
   "text_variables": {},

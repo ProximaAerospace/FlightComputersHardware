@@ -1041,7 +1041,7 @@
 		(at 149.86 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "871a03e7-3c1f-4a76-b2ec-f861cacf14ba")
+		(uuid "a73407f7-be0a-419f-8f2a-951f305f1b9a")
 	)
 	(junction
 		(at 198.12 86.36)
@@ -1059,7 +1059,7 @@
 		(at 54.61 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bfe80d4a-62d0-4c63-8abb-7e7797b46209")
+		(uuid "d0d935de-2b2e-45b9-b2d8-52984f31c07c")
 	)
 	(junction
 		(at 144.78 86.36)
@@ -1105,7 +1105,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 93.98) (xy 147.32 93.98)
+			(xy 134.62 93.98) (xy 144.78 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1115,7 +1115,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 102.87) (xy 149.86 105.41)
+			(xy 149.86 104.14) (xy 149.86 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1225,6 +1225,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 96.52) (xy 149.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49978080-40cb-4005-b388-f7fdf4f3dba8")
+	)
+	(wire
+		(pts
 			(xy 161.29 87.63) (xy 161.29 86.36)
 		)
 		(stroke
@@ -1235,7 +1245,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 86.36) (xy 54.61 86.36)
+			(xy 52.07 86.36) (xy 54.61 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1355,7 +1365,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 93.98) (xy 147.32 95.25)
+			(xy 144.78 93.98) (xy 144.78 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1425,7 +1435,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 95.25) (xy 149.86 95.25)
+			(xy 144.78 95.25) (xy 149.86 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1463,17 +1473,6 @@
 		)
 		(uuid "fe80d532-8dc0-4bdf-b87f-1a1cb2abf8cd")
 	)
-	(hierarchical_label "V_In"
-		(shape input)
-		(at 43.18 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0db9cb60-0702-425e-8f9f-b8ef45829896")
-	)
 	(hierarchical_label "EN"
 		(shape input)
 		(at 104.14 91.44 180)
@@ -1484,6 +1483,17 @@
 			(justify right)
 		)
 		(uuid "3e9192d1-2179-4bb3-9e90-0953c598b0a6")
+	)
+	(hierarchical_label "V_In"
+		(shape input)
+		(at 52.07 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aed62c34-f536-48b4-b703-2bd7b4bad757")
 	)
 	(hierarchical_label "V_out"
 		(shape output)
@@ -1576,7 +1586,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 99.06 180)
+		(at 149.86 100.33 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1586,7 +1596,7 @@
 		(dnp no)
 		(uuid "319e8a7a-4927-45b6-b646-87e1cc90066f")
 		(property "Reference" "R11"
-			(at 153.67 98.552 0)
+			(at 153.67 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1596,7 +1606,7 @@
 			)
 		)
 		(property "Value" "91k"
-			(at 154.178 100.584 0)
+			(at 154.178 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1606,7 +1616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.638 99.06 90)
+			(at 151.638 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1617,7 +1627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 99.06 0)
+			(at 149.86 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1628,7 +1638,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 149.86 99.06 0)
+			(at 149.86 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
