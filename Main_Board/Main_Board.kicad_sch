@@ -5,6 +5,96 @@
 	(uuid "7481738f-7c20-40bb-99b0-6ccd4168db33")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 190.5 93.98) (xy 182.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f315d7a-cb43-4cbc-855b-9e0623e34262")
+	)
+	(wire
+		(pts
+			(xy 180.34 96.52) (xy 180.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8567da-b942-499a-a897-31d3d4c52f9f")
+	)
+	(wire
+		(pts
+			(xy 185.42 91.44) (xy 185.42 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b21557a-e2b6-4782-9d18-b8114eac26f9")
+	)
+	(wire
+		(pts
+			(xy 190.5 91.44) (xy 185.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77053872-6427-4141-a876-6296ab0589ff")
+	)
+	(wire
+		(pts
+			(xy 190.5 96.52) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2838686-1c41-49ff-bed6-5c9c45c183bc")
+	)
+	(wire
+		(pts
+			(xy 182.88 93.98) (xy 182.88 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2eb8338-a4b1-4da7-a1ad-05b04df5de5c")
+	)
+	(wire
+		(pts
+			(xy 182.88 132.08) (xy 189.23 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db85e6e6-d1bf-4833-9600-454711d82d34")
+	)
+	(wire
+		(pts
+			(xy 180.34 135.89) (xy 189.23 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64aba44-7731-4f86-8c92-49c4ea9faebd")
+	)
+	(wire
+		(pts
+			(xy 185.42 128.27) (xy 189.23 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff722897-d003-4e92-b204-3648afb38b31")
+	)
 	(sheet
 		(at 190.5 38.1)
 		(size 49.53 25.4)
@@ -199,6 +289,16 @@
 				(justify left)
 			)
 		)
+		(pin "RSDIR" input
+			(at 190.5 96.52 180)
+			(uuid "fb3134c8-3440-42ad-8d15-b7c9f5c6da1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33"
@@ -208,7 +308,7 @@
 		)
 	)
 	(sheet
-		(at 27.94 39.37)
+		(at 189.23 110.49)
 		(size 53.34 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -224,7 +324,7 @@
 		)
 		(uuid "f339aa79-d1b1-4b60-b951-815db04e9281")
 		(property "Sheetname" "Interfaces"
-			(at 27.94 38.6584 0)
+			(at 189.23 109.7784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -235,7 +335,7 @@
 			)
 		)
 		(property "Sheetfile" "Interfaces.kicad_sch"
-			(at 27.94 70.4346 0)
+			(at 189.23 141.5546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -243,6 +343,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RSDIR" input
+			(at 189.23 135.89 180)
+			(uuid "1d9b6ba6-5c51-4122-a4ee-4613bc86ae8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX<-ESP" input
+			(at 189.23 132.08 180)
+			(uuid "99330986-b465-4dd7-83f9-897b599069da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX<-ESP" output
+			(at 189.23 128.27 180)
+			(uuid "28b2d84a-974e-44cd-8832-2892cec21d8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

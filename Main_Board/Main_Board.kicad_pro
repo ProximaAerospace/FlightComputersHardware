@@ -648,7 +648,7 @@
         "uuid": "7481738f-7c20-40bb-99b0-6ccd4168db33"
       }
     ],
-    "used_designators": "R17,R24-25,IC1,C27-29,#PWR59",
+    "used_designators": "R17,R24-29,IC1,C27-32,D7-9,#PWR59-67,U6-7",
     "variants": []
   },
   "sheets": [
@@ -683,6 +683,10 @@
     [
       "9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b",
       "Input_Protection"
+    ],
+    [
+      "9134e59b-c18f-4136-baaa-a4c593015be7",
+      "UART_RS485_Transciever"
     ]
   ],
   "text_variables": {},

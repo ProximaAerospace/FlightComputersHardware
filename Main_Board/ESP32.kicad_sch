@@ -3421,6 +3421,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 80.01) (xy 146.05 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f720b99d-e2bd-4af4-becd-f31712cf83dc")
+	)
+	(wire
+		(pts
 			(xy 107.95 102.87) (xy 107.95 100.33)
 		)
 		(stroke
@@ -3541,6 +3551,17 @@
 			(justify left)
 		)
 		(uuid "2ac4025a-91ac-407d-98b0-4da3e3cf4d90")
+	)
+	(hierarchical_label "RSDIR"
+		(shape input)
+		(at 148.59 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "555fe915-047c-4e78-9b0a-65f69582968b")
 	)
 	(hierarchical_label "3v3_EN"
 		(shape input)

@@ -3787,7 +3787,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Vin_Protected" input
+		(pin "Vin_Protected" output
 			(at 76.2 80.01 0)
 			(uuid "64353097-8f8e-46a3-8339-57284201cf20")
 			(effects

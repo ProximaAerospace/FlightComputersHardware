@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "9b25f4cf-f982-4a28-9f12-ce8157cd4c6a")
+	(uuid "29e7faf0-379c-49e2-a2d8-74d2118292f4")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1038,7 +1038,7 @@
 		(uuid "fb374e9a-39ae-41d7-99fc-2cbd1e50d634")
 	)
 	(hierarchical_label "Vin_Protected"
-		(shape input)
+		(shape output)
 		(at 195.58 92.71 0)
 		(effects
 			(font
@@ -1654,7 +1654,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c48bbe12-bc15-4c94-b59c-89b3700b8236")
 		(property "Reference" "#PWR059"
 			(at 140.97 120.65 0)
@@ -1668,7 +1667,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 119.38 0)
+			(at 140.97 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -7,27 +7,37 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 69.85 92.71) (xy 72.39 92.71)
+			(xy 73.66 91.44) (xy 81.28 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25850521-30c5-49a1-98f3-1cc4cb023bd7")
+		(uuid "3ea9ba0e-b008-419a-91cf-d9e00e521972")
 	)
 	(wire
 		(pts
-			(xy 69.85 95.25) (xy 72.39 95.25)
+			(xy 73.66 101.6) (xy 81.28 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52d73f58-bd85-45fb-b4fe-804b5509d3ea")
+		(uuid "71e802d1-70ad-4b40-926c-079d2ef50242")
+	)
+	(wire
+		(pts
+			(xy 73.66 96.52) (xy 81.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b583ed42-a464-4a81-aaee-639eaaf2956f")
 	)
 	(hierarchical_label "RX<-ESP"
 		(shape input)
-		(at 69.85 95.25 180)
+		(at 73.66 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36,9 +46,20 @@
 		)
 		(uuid "617f7ea5-f50a-4073-803d-df554109b548")
 	)
+	(hierarchical_label "RSDIR"
+		(shape input)
+		(at 73.66 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93d9b2b2-ad21-4d9d-af88-f68cd4371a24")
+	)
 	(hierarchical_label "TX<-ESP"
 		(shape output)
-		(at 69.85 92.71 180)
+		(at 73.66 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,5 +67,101 @@
 			(justify right)
 		)
 		(uuid "a7ac58c9-16c6-401d-945c-c1fc3fcf72f4")
+	)
+	(sheet
+		(at 81.28 83.82)
+		(size 38.1 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9134e59b-c18f-4136-baaa-a4c593015be7")
+		(property "Sheetname" "UART_RS485_Transciever"
+			(at 81.28 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UART_RS485_Transciever.kicad_sch"
+			(at 81.28 108.5346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ESP_UART_DIR" input
+			(at 81.28 101.6 180)
+			(uuid "7d9171ae-a869-4bad-9977-9f7738b753e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_B" bidirectional
+			(at 119.38 100.33 0)
+			(uuid "d8cdbb30-f047-422a-b7e6-bc0961c75ad2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_UART_RX" input
+			(at 81.28 96.52 180)
+			(uuid "56f74ba9-46c2-4e8d-b5b2-e9c1793f8bf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_UART_TX" output
+			(at 81.28 91.44 180)
+			(uuid "de164c49-5e8e-4900-9da2-bf9d9221cf25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_A" bidirectional
+			(at 119.38 91.44 0)
+			(uuid "2fb113da-4d38-48f8-8bf9-570ad9c9f916")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Main_Board"
+				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/f339aa79-d1b1-4b60-b951-815db04e9281"
+					(page "9")
+				)
+			)
+		)
 	)
 )
