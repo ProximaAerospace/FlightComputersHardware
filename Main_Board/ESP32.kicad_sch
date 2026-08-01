@@ -3552,7 +3552,7 @@
 		)
 		(uuid "2ac4025a-91ac-407d-98b0-4da3e3cf4d90")
 	)
-	(hierarchical_label "RSDIR"
+	(hierarchical_label "MODULE_BUS_DIR"
 		(shape input)
 		(at 148.59 80.01 0)
 		(effects
@@ -3596,7 +3596,7 @@
 		)
 		(uuid "9ee4bc1a-d45e-4706-82c9-17dd306e7a03")
 	)
-	(hierarchical_label "RX<-ESP"
+	(hierarchical_label "MODULE_BUS_RX"
 		(shape input)
 		(at 99.06 118.11 180)
 		(effects
@@ -3629,7 +3629,7 @@
 		)
 		(uuid "b62af4c7-0f83-4bba-b527-e5b0c56cbda9")
 	)
-	(hierarchical_label "TX<-ESP"
+	(hierarchical_label "MODULE_BUS_TX"
 		(shape output)
 		(at 99.06 115.57 180)
 		(effects

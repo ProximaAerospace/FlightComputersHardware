@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "e0068a6e-cb34-436d-a543-d11b01fbf675")
+	(uuid "4784905c-86f6-439e-b347-46c511321142")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1238,6 +1238,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Add DIP switches on modules to toggle the \n120 ohm termination resistor on the bus"
+		(exclude_from_sim no)
+		(at 188.976 110.744 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0961af7c-be6b-4855-a147-fe354a491d15")
+	)
 	(junction
 		(at 133.35 118.11)
 		(diameter 0)
@@ -1755,8 +1766,8 @@
 		)
 		(uuid "0d5c0c9a-5b42-49ce-afc2-a35a74da5b71")
 	)
-	(hierarchical_label "ESP_UART_RX"
-		(shape input)
+	(hierarchical_label "TRANSCIEVER_UART_RX"
+		(shape output)
 		(at 93.98 95.25 180)
 		(effects
 			(font
@@ -1766,7 +1777,7 @@
 		)
 		(uuid "1b855444-7c46-4586-84da-665b7f85816e")
 	)
-	(hierarchical_label "ESP_UART_DIR"
+	(hierarchical_label "TRANSCIEVER_UART_DIR"
 		(shape input)
 		(at 93.98 100.33 180)
 		(effects
@@ -1788,8 +1799,8 @@
 		)
 		(uuid "a8275f58-a9bf-442c-bf14-b8f57d22d114")
 	)
-	(hierarchical_label "ESP_UART_TX"
-		(shape output)
+	(hierarchical_label "TRANSCIEVER_UART_TX"
+		(shape input)
 		(at 93.98 105.41 180)
 		(effects
 			(font

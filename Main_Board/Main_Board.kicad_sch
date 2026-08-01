@@ -5,95 +5,209 @@
 	(uuid "7481738f-7c20-40bb-99b0-6ccd4168db33")
 	(paper "A4")
 	(lib_symbols)
-	(wire
-		(pts
-			(xy 190.5 93.98) (xy 182.88 93.98)
-		)
+	(bus_entry
+		(at 182.88 91.44)
+		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f315d7a-cb43-4cbc-855b-9e0623e34262")
+		(uuid "71def494-b6ad-48da-a92a-2629e8e05253")
+	)
+	(bus_entry
+		(at 182.88 130.81)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f8bb3e-54c1-4412-829e-f74fbd929d8c")
+	)
+	(bus_entry
+		(at 182.88 96.52)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939ba0c6-230c-4e5b-ac9a-e9c1bac24965")
+	)
+	(bus_entry
+		(at 182.88 93.98)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94fcbdf1-6df0-4fc4-b7b5-7a0843fde227")
+	)
+	(bus_entry
+		(at 182.88 133.35)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a34bf3-c2f3-4bc0-a2c3-f8e25478d7f7")
+	)
+	(bus_entry
+		(at 182.88 135.89)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6a9680-739f-4bf6-b072-eb7cd41dcfd6")
 	)
 	(wire
 		(pts
-			(xy 180.34 96.52) (xy 180.34 135.89)
+			(xy 182.88 91.44) (xy 189.23 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d8567da-b942-499a-a897-31d3d4c52f9f")
+		(uuid "33b571e0-c598-40f4-8c0f-9c7cd8bea871")
 	)
 	(wire
 		(pts
-			(xy 185.42 91.44) (xy 185.42 128.27)
+			(xy 182.88 133.35) (xy 189.23 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b21557a-e2b6-4782-9d18-b8114eac26f9")
+		(uuid "37eec136-bd72-4785-ac73-7d204a46ee7a")
 	)
 	(wire
 		(pts
-			(xy 190.5 91.44) (xy 185.42 91.44)
+			(xy 182.88 130.81) (xy 189.23 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77053872-6427-4141-a876-6296ab0589ff")
+		(uuid "656c4f48-43c5-4f5b-b63e-0ed67936d30c")
+	)
+	(bus
+		(pts
+			(xy 180.34 93.98) (xy 180.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73de939a-50c8-4067-955f-73c7f3ee338d")
 	)
 	(wire
 		(pts
-			(xy 190.5 96.52) (xy 180.34 96.52)
+			(xy 182.88 135.89) (xy 189.23 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2838686-1c41-49ff-bed6-5c9c45c183bc")
+		(uuid "93691d84-3eae-4236-9fc5-f7c0abbefb47")
 	)
 	(wire
 		(pts
-			(xy 182.88 93.98) (xy 182.88 132.08)
+			(xy 182.88 96.52) (xy 189.23 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2eb8338-a4b1-4da7-a1ad-05b04df5de5c")
+		(uuid "b1f5d798-6143-4f85-b283-33b5d9c03dd4")
 	)
 	(wire
 		(pts
-			(xy 182.88 132.08) (xy 189.23 132.08)
+			(xy 182.88 93.98) (xy 189.23 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db85e6e6-d1bf-4833-9600-454711d82d34")
+		(uuid "bd755e4a-e85d-4477-946c-0116d55883f6")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 180.34 135.89) (xy 189.23 135.89)
+			(xy 180.34 135.89) (xy 180.34 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f64aba44-7731-4f86-8c92-49c4ea9faebd")
+		(uuid "c3b7fbc6-cfcf-4751-9dfd-c5773563bb14")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 185.42 128.27) (xy 189.23 128.27)
+			(xy 180.34 99.06) (xy 180.34 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff722897-d003-4e92-b204-3648afb38b31")
+		(uuid "db35c7a5-6abb-4b29-bc30-f4940a5d2a8e")
+	)
+	(label "MODBUS_DIR"
+		(at 182.88 96.52 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "03feaf1e-cc06-4a82-bbdd-d666e412d925")
+	)
+	(label "MODBUS_RX"
+		(at 182.88 91.44 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "115301bc-91c8-4d87-b70a-efc7d3f73ad8")
+	)
+	(label "MODBUS_DIR"
+		(at 182.88 135.89 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "44de488a-06e0-495e-b33a-201b7867fc1b")
+	)
+	(label "MODBUS_TX"
+		(at 182.88 133.35 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c0eed9a-fa01-4274-a288-a2923fbc1555")
+	)
+	(label "MODBUS_TX"
+		(at 182.88 93.98 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "95ccd5d0-93ab-41e4-b6c5-715de9b5f5ce")
+	)
+	(label "MODBUS_RX"
+		(at 182.88 130.81 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "eed68f57-3239-4ebb-ad65-421d30dddcc6")
 	)
 	(sheet
 		(at 190.5 38.1)
@@ -192,7 +306,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 73.66)
+		(at 189.23 73.66)
 		(size 49.53 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -208,7 +322,7 @@
 		)
 		(uuid "cbc83c60-d43e-479b-a6b3-ba8e24d176e0")
 		(property "Sheetname" "ESP32"
-			(at 190.5 72.9484 0)
+			(at 189.23 72.9484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -219,7 +333,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP32.kicad_sch"
-			(at 190.5 100.9146 0)
+			(at 189.23 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -229,28 +343,8 @@
 				(justify left top)
 			)
 		)
-		(pin "TX<-ESP" output
-			(at 190.5 91.44 180)
-			(uuid "38ee90d6-eed4-466e-92c4-42e05d9b3880")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RX<-ESP" input
-			(at 190.5 93.98 180)
-			(uuid "466dd381-7f61-4e94-9423-ccebab014fdd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "MOSI_SPI3" input
-			(at 190.5 76.2 180)
+			(at 189.23 76.2 180)
 			(uuid "a1c6ffe4-c145-4a70-af4b-6f28d3203ab1")
 			(effects
 				(font
@@ -260,7 +354,7 @@
 			)
 		)
 		(pin "MISO_SPI3" output
-			(at 190.5 78.74 180)
+			(at 189.23 78.74 180)
 			(uuid "9b67b233-ffb3-42ea-813b-fadadd9b8735")
 			(effects
 				(font
@@ -270,7 +364,7 @@
 			)
 		)
 		(pin "CS1_SPI3" output
-			(at 190.5 81.28 180)
+			(at 189.23 81.28 180)
 			(uuid "5b9f60f8-3580-4488-be48-ec4cd5f2e4e8")
 			(effects
 				(font
@@ -280,7 +374,7 @@
 			)
 		)
 		(pin "CLK_SPI3" output
-			(at 190.5 83.82 180)
+			(at 189.23 83.82 180)
 			(uuid "5d36ca97-881c-4752-bd36-d5c1188eb3cc")
 			(effects
 				(font
@@ -289,9 +383,29 @@
 				(justify left)
 			)
 		)
-		(pin "RSDIR" input
-			(at 190.5 96.52 180)
-			(uuid "fb3134c8-3440-42ad-8d15-b7c9f5c6da1c")
+		(pin "MODULE_BUS_RX" input
+			(at 189.23 91.44 180)
+			(uuid "db39f04c-f237-406a-9e48-634f6cc05718")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MODULE_BUS_DIR" input
+			(at 189.23 96.52 180)
+			(uuid "6e97ce1b-ba4c-4262-a313-8b33e2e15449")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MODULE_BUS_TX" output
+			(at 189.23 93.98 180)
+			(uuid "80cbbf73-151d-4309-aaa3-cdb5cf1e00a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -345,29 +459,29 @@
 				(justify left top)
 			)
 		)
-		(pin "RSDIR" input
+		(pin "MODULE_BUS_RX" input
+			(at 189.23 130.81 180)
+			(uuid "4cd63550-e4be-421c-88cf-769edcee5b00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MODULE_BUS_TX" output
+			(at 189.23 133.35 180)
+			(uuid "2a90bc3f-4fb9-4ab2-9bcb-fe7d565c05fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MODULE_BUS_DIR" input
 			(at 189.23 135.89 180)
-			(uuid "1d9b6ba6-5c51-4122-a4ee-4613bc86ae8a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RX<-ESP" input
-			(at 189.23 132.08 180)
-			(uuid "99330986-b465-4dd7-83f9-897b599069da")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TX<-ESP" output
-			(at 189.23 128.27 180)
-			(uuid "28b2d84a-974e-44cd-8832-2892cec21d8a")
+			(uuid "6ca7b88a-3796-4046-bd33-a6871cbe24ac")
 			(effects
 				(font
 					(size 1.27 1.27)
