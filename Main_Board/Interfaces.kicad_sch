@@ -5574,7 +5574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
 			(at 70.485 153.67 90)
 			(hide yes)
 			(show_name no)
