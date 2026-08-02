@@ -1558,7 +1558,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "a9efd6b0-2353-4b74-9b2e-55e0801cf9fc")
-		(property "Sheetname" "Piro_Channels"
+		(property "Sheetname" "Pyro_Channels (page 10)"
 			(at 176.53 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1580,9 +1580,9 @@
 				(justify left top)
 			)
 		)
-		(pin "PYRO2_CONTINUITY" output
-			(at 176.53 113.03 180)
-			(uuid "74a56158-e40e-44d7-8138-4c325ac07c57")
+		(pin "PYRO1_INPUT" input
+			(at 176.53 105.41 180)
+			(uuid "b127b1af-fbca-4c38-aa47-dacc82204bb9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,9 +1590,19 @@
 				(justify left)
 			)
 		)
-		(pin "PYRO2" input
+		(pin "PYRO2_INPUT" input
 			(at 176.53 107.95 180)
-			(uuid "ef79e4e8-6ffa-482b-9d7f-f0b0c7aa71fa")
+			(uuid "093a66e8-907b-49bc-a66c-cc3cf61f4f76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PYRO2_CONTINUITY" output
+			(at 176.53 113.03 180)
+			(uuid "db8c6386-72bf-47ef-a851-2e1acf490e51")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,17 +1612,7 @@
 		)
 		(pin "PYRO1_CONTINUITY" output
 			(at 176.53 110.49 180)
-			(uuid "b4980493-2251-4d65-809f-b2bbdfeee4ec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PYRO1" input
-			(at 176.53 105.41 180)
-			(uuid "b6a8d943-e4f8-42da-807b-28d7166b204e")
+			(uuid "c6ac36d5-efd0-4bc1-9e3d-207f4dbf46ec")
 			(effects
 				(font
 					(size 1.27 1.27)

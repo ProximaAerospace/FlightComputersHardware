@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.3,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +241,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -648,7 +668,7 @@
         "uuid": "7481738f-7c20-40bb-99b0-6ccd4168db33"
       }
     ],
-    "used_designators": "D1-12,#PWR1-108,BZ1,R1-54,J1-7,Q1-8,C1-41,H1-4,IC1,JP1,L1-3,U1-7",
+    "used_designators": "D1-12,#PWR1-112,BZ1,R1-59,J1-8,Q1-10,C1-41,H1-4,IC1,JP1,L1-3,U1-7",
     "variants": []
   },
   "sheets": [
@@ -690,7 +710,15 @@
     ],
     [
       "a9efd6b0-2353-4b74-9b2e-55e0801cf9fc",
-      "Piro_Channels"
+      "Pyro_Channels (page 10)"
+    ],
+    [
+      "cd6734be-dc35-4322-bfb0-ed11c8242097",
+      "Pyro_Channel1"
+    ],
+    [
+      "8a13c8a5-8054-4bf0-abea-4a33e90adbcf",
+      "Pyro_Channel2"
     ]
   ],
   "text_variables": {},
