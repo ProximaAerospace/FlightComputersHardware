@@ -720,7 +720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bab190f-ccec-4f6e-80e1-f0728fe6d58f")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR04"
 			(at 58.42 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -780,7 +780,7 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33"
-					(reference "#PWR096")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -878,7 +878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25863fae-c347-4f6d-a786-439736f5e59f")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR01"
 			(at 31.75 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -938,7 +938,7 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33"
-					(reference "#PWR093")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -956,7 +956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49c2ec21-cb62-490e-b875-f44c83984176")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR02"
 			(at 40.64 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -1016,7 +1016,7 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33"
-					(reference "#PWR094")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1034,7 +1034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d4b5364-2e91-42b3-94c6-1ad8959456bd")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR03"
 			(at 49.53 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -1094,7 +1094,7 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33"
-					(reference "#PWR095")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1432,6 +1432,92 @@
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 78.74)
+		(size 26.67 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a9efd6b0-2353-4b74-9b2e-55e0801cf9fc")
+		(property "Sheetname" "Piro_Channels"
+			(at 93.98 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Piro_Channels.kicad_sch"
+			(at 93.98 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PYRO2_CONTINUITY" output
+			(at 93.98 104.14 180)
+			(uuid "74a56158-e40e-44d7-8138-4c325ac07c57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PYRO2" input
+			(at 93.98 100.33 180)
+			(uuid "ef79e4e8-6ffa-482b-9d7f-f0b0c7aa71fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PYRO1_CONTINUITY" output
+			(at 93.98 90.17 180)
+			(uuid "b4980493-2251-4d65-809f-b2bbdfeee4ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PYRO1" input
+			(at 93.98 86.36 180)
+			(uuid "b6a8d943-e4f8-42da-807b-28d7166b204e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Main_Board"
+				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33"
+					(page "10")
 				)
 			)
 		)

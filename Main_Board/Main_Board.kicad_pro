@@ -648,7 +648,7 @@
         "uuid": "7481738f-7c20-40bb-99b0-6ccd4168db33"
       }
     ],
-    "used_designators": "J1-4,R1-39,IC1,C1-41,D1-12,#PWR1-96,U1-7,Q1-3,JP1,BZ1,L1-3,H1-4",
+    "used_designators": "D1-12,#PWR1-108,BZ1,R1-54,J1-7,Q1-8,C1-41,H1-4,IC1,JP1,L1-3,U1-7",
     "variants": []
   },
   "sheets": [
@@ -687,6 +687,10 @@
     [
       "9134e59b-c18f-4136-baaa-a4c593015be7",
       "UART_RS485_Transciever"
+    ],
+    [
+      "a9efd6b0-2353-4b74-9b2e-55e0801cf9fc",
+      "Piro_Channels"
     ]
   ],
   "text_variables": {},
