@@ -3110,16 +3110,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 134.62) (xy 158.75 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6b7f32-1305-4230-991a-3fa71fae0897")
-	)
-	(wire
-		(pts
 			(xy 71.12 134.62) (xy 125.73 134.62)
 		)
 		(stroke
@@ -3377,16 +3367,6 @@
 			(type default)
 		)
 		(uuid "588ad703-de74-4d9d-88cb-9a3b88d06db4")
-	)
-	(wire
-		(pts
-			(xy 170.18 134.62) (xy 166.37 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "595e9629-5351-4824-afaa-3862685f312b")
 	)
 	(wire
 		(pts
@@ -3997,17 +3977,6 @@
 			(justify left bottom)
 		)
 		(uuid "9d17360e-0c4f-4836-bac2-af85db9a8b13")
-	)
-	(hierarchical_label "BUZZER"
-		(shape output)
-		(at 170.18 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "01fcdc7a-631d-48b6-999a-7c2e8552131c")
 	)
 	(hierarchical_label "MODULE_BUS_RST"
 		(shape input)
@@ -6312,85 +6281,6 @@
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/cbc83c60-d43e-479b-a6b3-ba8e24d176e0"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 162.56 134.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8101f76c-b7bf-444a-87c2-30f1d54be752")
-		(property "Reference" "R6"
-			(at 181.61 134.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 185.674 134.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 162.56 136.398 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 162.56 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe8daa0e-b66a-4002-9747-e7caf135bbaa")
-		)
-		(pin "2"
-			(uuid "532a82f6-4f9b-4a69-b0e1-52a554120149")
-		)
-		(instances
-			(project "Main_Board"
-				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/cbc83c60-d43e-479b-a6b3-ba8e24d176e0"
-					(reference "R6")
 					(unit 1)
 				)
 			)
