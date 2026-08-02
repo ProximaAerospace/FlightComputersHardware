@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "f7998c47-ae55-4145-9d00-f12facad2a5c")
+	(uuid "dd13a17b-0b4c-4bf3-9195-1800f1ceef3d")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
