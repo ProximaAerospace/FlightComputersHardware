@@ -1020,7 +1020,7 @@
 	)
 	(text "Policzyć Rilm gdy będzie wiadomy docelowy pobór!"
 		(exclude_from_sim no)
-		(at 143.002 124.968 0)
+		(at 143.764 128.778 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2514,8 +2514,8 @@
 				)
 			)
 		)
-		(property "Value" "39k"
-			(at 164.338 105.156 0)
+		(property "Value" "39K"
+			(at 164.846 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

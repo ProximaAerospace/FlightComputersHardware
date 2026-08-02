@@ -2270,7 +2270,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 44.45) (xy 26.67 82.55)
+			(xy 30.48 44.45) (xy 30.48 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2330,7 +2330,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 140.97) (xy 127 140.97)
+			(xy 91.44 137.16) (xy 95.25 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +2390,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 132.08) (xy 127 132.08)
+			(xy 91.44 128.27) (xy 95.25 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2420,7 +2420,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 142.24) (xy 85.09 142.24)
+			(xy 45.72 138.43) (xy 53.34 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2470,7 +2470,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 44.45) (xy 31.75 80.01)
+			(xy 35.56 44.45) (xy 35.56 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2570,7 +2570,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 80.01) (xy 121.92 80.01)
+			(xy 35.56 80.01) (xy 121.92 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2590,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 132.08) (xy 85.09 132.08)
+			(xy 45.72 128.27) (xy 53.34 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2660,7 +2660,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 137.16) (xy 85.09 137.16)
+			(xy 45.72 133.35) (xy 53.34 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2700,7 +2700,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 82.55) (xy 142.24 82.55)
+			(xy 30.48 82.55) (xy 142.24 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2889,7 +2889,7 @@
 		(uuid "feb7a8e9-8bc6-43b5-8229-a19b8961b7c8")
 	)
 	(label "B_RS485"
-		(at 127 140.97 0)
+		(at 95.25 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2899,7 +2899,7 @@
 		(uuid "1238dfaf-5ed9-44f1-bf81-393b4ba96714")
 	)
 	(label "A_RS485"
-		(at 127 132.08 0)
+		(at 95.25 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2930,7 +2930,7 @@
 	)
 	(hierarchical_label "MODULE_BUS_RX"
 		(shape input)
-		(at 77.47 137.16 180)
+		(at 45.72 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2941,7 +2941,7 @@
 	)
 	(hierarchical_label "MODULE_BUS_DIR"
 		(shape input)
-		(at 77.47 142.24 180)
+		(at 45.72 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2996,7 +2996,7 @@
 	)
 	(hierarchical_label "MODULE_BUS_TX"
 		(shape output)
-		(at 77.47 132.08 180)
+		(at 45.72 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3583,7 +3583,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 26.67 44.45 0)
+		(at 30.48 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3593,7 +3593,7 @@
 		(dnp no)
 		(uuid "3b597218-016e-43c3-a6ea-1d694459b31e")
 		(property "Reference" "#PWR069"
-			(at 26.67 48.26 0)
+			(at 30.48 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3604,7 +3604,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 26.416 39.37 0)
+			(at 30.226 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3614,7 +3614,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 44.45 0)
+			(at 30.48 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3625,7 +3625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 44.45 0)
+			(at 30.48 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3636,7 +3636,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 26.67 44.45 0)
+			(at 30.48 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5832,7 +5832,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 31.75 44.45 0)
+		(at 35.56 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5843,7 +5843,7 @@
 		(fields_autoplaced yes)
 		(uuid "d54161b3-7a69-4ea7-9a42-4f9fd7fedf36")
 		(property "Reference" "#PWR070"
-			(at 31.75 48.26 0)
+			(at 35.56 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5854,7 +5854,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 31.75 39.37 0)
+			(at 35.56 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5864,7 +5864,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 44.45 0)
+			(at 35.56 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5875,7 +5875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 44.45 0)
+			(at 35.56 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5886,7 +5886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 31.75 44.45 0)
+			(at 35.56 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6146,7 +6146,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 124.46)
+		(at 53.34 120.65)
 		(size 38.1 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6162,7 +6162,7 @@
 		)
 		(uuid "9134e59b-c18f-4136-baaa-a4c593015be7")
 		(property "Sheetname" "UART_RS485_Transciever"
-			(at 85.09 123.7484 0)
+			(at 53.34 119.9384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6173,7 +6173,7 @@
 			)
 		)
 		(property "Sheetfile" "UART_RS485_Transciever.kicad_sch"
-			(at 85.09 149.1746 0)
+			(at 53.34 145.3646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6184,7 +6184,7 @@
 			)
 		)
 		(pin "RS485_B" bidirectional
-			(at 123.19 140.97 0)
+			(at 91.44 137.16 0)
 			(uuid "d8cdbb30-f047-422a-b7e6-bc0961c75ad2")
 			(effects
 				(font
@@ -6194,7 +6194,7 @@
 			)
 		)
 		(pin "RS485_A" bidirectional
-			(at 123.19 132.08 0)
+			(at 91.44 128.27 0)
 			(uuid "2fb113da-4d38-48f8-8bf9-570ad9c9f916")
 			(effects
 				(font
@@ -6204,7 +6204,7 @@
 			)
 		)
 		(pin "TRANSCIEVER_UART_DIR" input
-			(at 85.09 142.24 180)
+			(at 53.34 138.43 180)
 			(uuid "2567b70b-fcde-4e02-b43d-34c91682dfed")
 			(effects
 				(font
@@ -6214,7 +6214,7 @@
 			)
 		)
 		(pin "TRANSCIEVER_UART_RX" output
-			(at 85.09 137.16 180)
+			(at 53.34 133.35 180)
 			(uuid "25a0e7e4-c4ca-44b8-8889-7dbf60444ece")
 			(effects
 				(font
@@ -6224,7 +6224,7 @@
 			)
 		)
 		(pin "TRANSCIEVER_UART_TX" input
-			(at 85.09 132.08 180)
+			(at 53.34 128.27 180)
 			(uuid "8d6cf784-8632-4716-a6d4-573649217bfb")
 			(effects
 				(font
