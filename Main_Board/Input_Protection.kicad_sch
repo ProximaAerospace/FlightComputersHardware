@@ -300,6 +300,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Small_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Open"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, open"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_1"
+				(arc
+					(start -0.762 0.7656)
+					(mid 0 1.0189)
+					(end 0.762 0.7656)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:TPS25200DRVR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -872,6 +1038,12 @@
 		(uuid "02b35c14-53dd-4b80-80a4-729767f1a00f")
 	)
 	(junction
+		(at 102.87 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "191f2587-9a55-4e2a-9d71-5fb7be535bae")
+	)
+	(junction
 		(at 199.39 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1128,6 +1300,16 @@
 			(type default)
 		)
 		(uuid "4cded54c-7638-42b1-a0dc-671fa5e2877d")
+	)
+	(wire
+		(pts
+			(xy 102.87 119.38) (xy 102.87 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5829ed0c-a916-4a83-98e3-f0b91a62e2ac")
 	)
 	(wire
 		(pts
@@ -1413,7 +1595,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2dfd9059-37a9-4d75-b5f8-349428113d9e")
-		(property "Reference" "R17"
+		(property "Reference" "R31"
 			(at 99.314 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1475,7 +1657,7 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
-					(reference "R17")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -1492,7 +1674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f64d525-588a-4342-9083-0005151e6fbd")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR084"
 			(at 82.55 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -1552,7 +1734,7 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
-					(reference "#PWR079")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -1570,7 +1752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60ea114a-c55f-4a50-9655-1ca08a927d86")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 78.74 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1637,7 +1819,7 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -1655,7 +1837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68d327a7-9fcd-45f6-901f-8f5af22e7e4b")
-		(property "Reference" "C34"
+		(property "Reference" "C38"
 			(at 214.63 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1719,7 +1901,7 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
-					(reference "C34")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -1736,7 +1918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "714516cf-f4a0-44a1-8d03-361dc99990e0")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR083"
 			(at 59.69 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1796,7 +1978,7 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
-					(reference "#PWR080")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -1814,7 +1996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72fabae7-0ebe-47a1-a2f1-bef313c8ee1a")
-		(property "Reference" "C29"
+		(property "Reference" "C35"
 			(at 175.26 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1878,7 +2060,7 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
-					(reference "C29")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -2077,7 +2259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c9cd285-d78d-44a7-ba8f-89eee216425a")
-		(property "Reference" "C28"
+		(property "Reference" "C36"
 			(at 191.77 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2141,7 +2323,7 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
-					(reference "C28")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -2159,7 +2341,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84a1b2bc-6d1e-4288-a86f-0411836b61f8")
-		(property "Reference" "C35"
+		(property "Reference" "C33"
 			(at 57.15 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2223,7 +2405,7 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
-					(reference "C35")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -2241,7 +2423,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8526edde-3579-4184-8ddf-f3650ccb994d")
-		(property "Reference" "C27"
+		(property "Reference" "C34"
 			(at 113.03 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2305,7 +2487,7 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
-					(reference "C27")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -2322,7 +2504,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "957717be-b602-4bec-a45d-a76b191be022")
-		(property "Reference" "R24"
+		(property "Reference" "R32"
 			(at 164.846 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2384,7 +2566,84 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
-					(reference "R24")
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b428d933-0aac-497d-b1a5-dcb482a09373")
+		(property "Reference" "#PWR085"
+			(at 102.87 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 123.444 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6026e5c3-bdc2-4eba-8243-e5f01f0236d1")
+		)
+		(instances
+			(project "Main_Board"
+				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -2401,7 +2660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c48bbe12-bc15-4c94-b59c-89b3700b8236")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR086"
 			(at 140.97 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2461,7 +2720,7 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
-					(reference "#PWR059")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -2479,7 +2738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7c8eaeb-3ac3-404c-95e1-3579e06566d0")
-		(property "Reference" "C33"
+		(property "Reference" "C37"
 			(at 203.2 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2543,7 +2802,88 @@
 		(instances
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
-					(reference "C33")
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 102.87 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e88f2f38-b2de-4025-8b2e-75630200d9c5")
+		(property "Reference" "JP1"
+			(at 103.378 112.268 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R&D_still_on"
+			(at 103.378 114.808 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 102.87 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32cff5a0-bc1e-41bd-8545-52481c463f6c")
+		)
+		(pin "2"
+			(uuid "826cf85d-5c54-413a-afd1-1a6d813bea99")
+		)
+		(instances
+			(project "Main_Board"
+				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/9c10d29b-d26a-4ccc-85ab-aaf11fc5f66b"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
