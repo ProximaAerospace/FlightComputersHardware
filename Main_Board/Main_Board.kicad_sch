@@ -346,6 +346,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 92.71) (xy 207.01 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f55f35-8c7a-43a6-a532-b04d971c2e50")
+	)
+	(wire
+		(pts
 			(xy 135.89 93.98) (xy 142.24 93.98)
 		)
 		(stroke
@@ -423,6 +433,16 @@
 			(type default)
 		)
 		(uuid "536c89b8-8b19-4bed-a4ad-b55d0816fd22")
+	)
+	(wire
+		(pts
+			(xy 191.77 87.63) (xy 207.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d082229-ca10-45e5-aeaf-e87992f7bb2d")
 	)
 	(wire
 		(pts
@@ -536,6 +556,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 90.17) (xy 207.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c483b64-0755-4d55-a150-a5abe7cea4a4")
+	)
+	(wire
+		(pts
 			(xy 142.24 74.93) (xy 138.43 74.93)
 		)
 		(stroke
@@ -563,6 +593,16 @@
 			(type default)
 		)
 		(uuid "aed8f692-e893-4ae0-867a-5b5bf686a822")
+	)
+	(wire
+		(pts
+			(xy 191.77 95.25) (xy 207.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b175a592-f858-47d8-9404-a5218028030c")
 	)
 	(wire
 		(pts
@@ -1503,8 +1543,8 @@
 		)
 	)
 	(sheet
-		(at 255.27 68.58)
-		(size 26.67 33.02)
+		(at 207.01 83.82)
+		(size 26.67 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1519,7 +1559,7 @@
 		)
 		(uuid "a9efd6b0-2353-4b74-9b2e-55e0801cf9fc")
 		(property "Sheetname" "Piro_Channels"
-			(at 255.27 67.8684 0)
+			(at 207.01 83.1084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1530,7 +1570,7 @@
 			)
 		)
 		(property "Sheetfile" "Piro_Channels.kicad_sch"
-			(at 255.27 102.1846 0)
+			(at 207.01 99.6446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1541,7 +1581,7 @@
 			)
 		)
 		(pin "PYRO2_CONTINUITY" output
-			(at 255.27 93.98 180)
+			(at 207.01 95.25 180)
 			(uuid "74a56158-e40e-44d7-8138-4c325ac07c57")
 			(effects
 				(font
@@ -1551,7 +1591,7 @@
 			)
 		)
 		(pin "PYRO2" input
-			(at 255.27 90.17 180)
+			(at 207.01 90.17 180)
 			(uuid "ef79e4e8-6ffa-482b-9d7f-f0b0c7aa71fa")
 			(effects
 				(font
@@ -1561,7 +1601,7 @@
 			)
 		)
 		(pin "PYRO1_CONTINUITY" output
-			(at 255.27 80.01 180)
+			(at 207.01 92.71 180)
 			(uuid "b4980493-2251-4d65-809f-b2bbdfeee4ec")
 			(effects
 				(font
@@ -1571,7 +1611,7 @@
 			)
 		)
 		(pin "PYRO1" input
-			(at 255.27 76.2 180)
+			(at 207.01 87.63 180)
 			(uuid "b6a8d943-e4f8-42da-807b-28d7166b204e")
 			(effects
 				(font
@@ -1766,7 +1806,7 @@
 				(justify left)
 			)
 		)
-		(pin "Piro1" output
+		(pin "PYRO1" output
 			(at 191.77 87.63 0)
 			(uuid "71d43ab6-e6d7-4fce-bbbd-c8dc316f2ec3")
 			(effects
@@ -1776,9 +1816,29 @@
 				(justify right)
 			)
 		)
-		(pin "Piro2" output
+		(pin "PYRO2" output
 			(at 191.77 90.17 0)
 			(uuid "4c0e05fa-24dd-468a-95d1-1df534a7dd72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PYRO1_CONTINUITY" input
+			(at 191.77 92.71 0)
+			(uuid "01437e89-6677-48da-b611-d454a5abb8e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PYRO2_CONTINUITY" input
+			(at 191.77 95.25 0)
+			(uuid "e31b1eb3-43c9-41b9-b14b-fe0f6d77a6da")
 			(effects
 				(font
 					(size 1.27 1.27)
