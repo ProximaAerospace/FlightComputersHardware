@@ -18,4 +18,10 @@ K
 F http://uk.rs-online.com/web/p/products/7673728
 $ENDCMP
 #
+$CMP 15EDGVC-3.5-02P-14-00A_H_
+D Pluggable male terminal block 15EDGVC-3.5-02P-14-00AH, 2-ways, vertical header, pitch 3.50mm
+K
+F https://imrad.com.ua/userdata/modules/productFiles/file_R8soAsQ.pdf
+$ENDCMP
+#
 #End Doc Library

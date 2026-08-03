@@ -1935,7 +1935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:SHDR2W80P0X381_1X2_841X700X920P"
 			(at 166.37 93.98 0)
 			(hide yes)
 			(show_name no)
