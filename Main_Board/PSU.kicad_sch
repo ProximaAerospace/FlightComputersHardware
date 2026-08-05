@@ -2717,7 +2717,7 @@
 		(dnp no)
 		(uuid "5729d78a-a683-49f7-b50a-1cbba17561d6")
 		(property "Reference" "R23"
-			(at 197.866 91.948 90)
+			(at 198.374 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2727,7 +2727,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 197.358 93.726 90)
+			(at 197.866 94.234 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2967,7 +2967,7 @@
 		(dnp no)
 		(uuid "73f2f2fa-86c8-4154-9a0e-8ce4ac9939a8")
 		(property "Reference" "R14"
-			(at 89.154 94.234 0)
+			(at 89.662 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3124,7 +3124,7 @@
 		(dnp no)
 		(uuid "78ae0c0c-ff01-4b7d-b9b0-3614c4635d47")
 		(property "Reference" "R17"
-			(at 118.872 87.122 90)
+			(at 119.38 87.122 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3134,7 +3134,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 118.872 88.9 90)
+			(at 119.38 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3441,7 +3441,7 @@
 		(dnp no)
 		(uuid "9389636e-b382-4509-938c-e8a605326bb7")
 		(property "Reference" "R20"
-			(at 198.374 107.442 0)
+			(at 196.342 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3451,7 +3451,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 199.644 109.474 0)
+			(at 197.104 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3691,7 +3691,7 @@
 		(dnp no)
 		(uuid "d22381ae-ef4b-42e4-86e9-57e1c60362ff")
 		(property "Reference" "R19"
-			(at 198.374 80.772 0)
+			(at 196.342 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3701,7 +3701,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 199.644 82.804 0)
+			(at 197.104 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3928,7 +3928,7 @@
 		(dnp no)
 		(uuid "daaeccd1-681f-48ba-b651-1970970a9c0d")
 		(property "Reference" "R18"
-			(at 148.844 73.152 0)
+			(at 146.812 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3938,7 +3938,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 150.114 75.184 0)
+			(at 146.05 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4243,7 +4243,7 @@
 		(dnp no)
 		(uuid "e9ffc469-329e-47cc-b141-6cecee3f7819")
 		(property "Reference" "R13"
-			(at 81.788 72.644 90)
+			(at 83.058 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4253,7 +4253,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 83.566 73.152 90)
+			(at 83.566 71.628 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
