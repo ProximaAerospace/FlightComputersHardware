@@ -1589,22 +1589,10 @@
 		(uuid "0f21a6d1-ecd4-4b98-9044-db7090982c69")
 	)
 	(junction
-		(at 142.24 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33234dfc-f2c3-41a7-952d-c460fa443bb2")
-	)
-	(junction
 		(at 173.99 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "435a2451-9250-44c1-87d3-df08cb483fdc")
-	)
-	(junction
-		(at 121.92 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a691663-58d5-4976-bb7c-9e3c9a51ae58")
 	)
 	(junction
 		(at 173.99 74.93)
@@ -1635,16 +1623,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f347cef0-471b-4dfb-b910-50637e335493")
-	)
-	(wire
-		(pts
-			(xy 130.81 53.34) (xy 130.81 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01de0d63-b6a8-44ad-9586-3e6f86105383")
 	)
 	(wire
 		(pts
@@ -1688,26 +1666,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 57.15) (xy 113.03 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e2ea11a-a865-426f-8e59-a496ba5a4445")
-	)
-	(wire
-		(pts
-			(xy 121.92 62.23) (xy 121.92 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "393be792-49bc-473e-9820-b8f3a5851088")
-	)
-	(wire
-		(pts
 			(xy 30.48 44.45) (xy 30.48 82.55)
 		)
 		(stroke
@@ -1715,16 +1673,6 @@
 			(type default)
 		)
 		(uuid "42e5a0ed-c4ef-4022-8f7c-78d84649f82f")
-	)
-	(wire
-		(pts
-			(xy 113.03 57.15) (xy 114.3 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47dd8e6b-ccfb-4600-a524-bd20a7fd55c9")
 	)
 	(wire
 		(pts
@@ -1888,16 +1836,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 57.15) (xy 152.4 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92cbdede-287d-4142-989f-d08dc6efed73")
-	)
-	(wire
-		(pts
 			(xy 171.45 72.39) (xy 173.99 72.39)
 		)
 		(stroke
@@ -1918,16 +1856,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 60.96) (xy 133.35 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c70b776-1c33-4128-9c0f-0890f2916883")
-	)
-	(wire
-		(pts
 			(xy 88.9 57.15) (xy 88.9 54.61)
 		)
 		(stroke
@@ -1935,16 +1863,6 @@
 			(type default)
 		)
 		(uuid "9cca8e7e-88b0-44c1-ac72-e0425aaf4c68")
-	)
-	(wire
-		(pts
-			(xy 35.56 80.01) (xy 121.92 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e9c1caf-f34a-446d-9aad-967196ddaab9")
 	)
 	(wire
 		(pts
@@ -2008,7 +1926,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 82.55) (xy 158.75 82.55)
+			(xy 30.48 82.55) (xy 158.75 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2018,7 +1936,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 80.01) (xy 158.75 80.01)
+			(xy 35.56 80.01) (xy 158.75 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2038,16 +1956,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 82.55) (xy 142.24 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2a31bc5-be3b-44a8-9e02-3ab3054d5ee3")
-	)
-	(wire
-		(pts
 			(xy 214.63 43.18) (xy 214.63 40.64)
 		)
 		(stroke
@@ -2055,26 +1963,6 @@
 			(type default)
 		)
 		(uuid "c3aeaaa0-9ae4-40e5-a973-bfff0efb753d")
-	)
-	(wire
-		(pts
-			(xy 152.4 57.15) (xy 152.4 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8322261-e31e-4b26-9e52-886a28c6be43")
-	)
-	(wire
-		(pts
-			(xy 133.35 57.15) (xy 134.62 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb07b012-a07f-4c26-b965-ebfc058f5814")
 	)
 	(wire
 		(pts
@@ -2095,16 +1983,6 @@
 			(type default)
 		)
 		(uuid "d12ae5b2-ef8d-43e7-8200-ee4ac86a2186")
-	)
-	(wire
-		(pts
-			(xy 129.54 57.15) (xy 130.81 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d74d33a2-dd9e-4848-8ca8-689f7af78cd5")
 	)
 	(wire
 		(pts
@@ -2175,16 +2053,6 @@
 			(type default)
 		)
 		(uuid "ee36e79a-016d-4999-9f62-5b987e583778")
-	)
-	(wire
-		(pts
-			(xy 142.24 62.23) (xy 142.24 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1076068-5a5d-46cb-a7bf-2a0acd6bb676")
 	)
 	(wire
 		(pts
@@ -2644,89 +2512,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAV99")
-		(at 142.24 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22b201df-5a41-44d6-9432-8b0d07fc01d8")
-		(property "Reference" "D10"
-			(at 142.24 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 142.24 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 142.24 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-			(at 142.24 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 142.24 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c2b71b2a-bb24-44b4-a372-4c9d118fe74e")
-		)
-		(pin "2"
-			(uuid "0dd7669b-49eb-43b2-94e6-3da96fab2ae5")
-		)
-		(pin "3"
-			(uuid "905f1845-f5b3-4d81-8f06-fe032a2773cb")
-		)
-		(instances
-			(project "Main_Board"
-				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/f339aa79-d1b1-4b60-b951-815db04e9281"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 63.5 72.39 90)
 		(mirror x)
@@ -2967,162 +2752,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "612f7570-0beb-4c6c-8845-d6bd94e618c0")
-		(property "Reference" "#PWR080"
-			(at 133.35 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 133.35 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "96c61d95-1e24-4304-966f-1f7392c175fc")
-		)
-		(instances
-			(project "Main_Board"
-				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/f339aa79-d1b1-4b60-b951-815db04e9281"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 130.81 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64da3a90-e40a-4d73-9c9e-53294fca08cf")
-		(property "Reference" "#PWR079"
-			(at 130.81 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 130.81 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 130.81 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4fe611a3-7926-4762-90ce-25e814c385dc")
-		)
-		(instances
-			(project "Main_Board"
-				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/f339aa79-d1b1-4b60-b951-815db04e9281"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 251.46 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -3194,84 +2823,6 @@
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/f339aa79-d1b1-4b60-b951-815db04e9281"
 					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e2c5917-3873-4498-b722-f680349a8243")
-		(property "Reference" "#PWR078"
-			(at 113.03 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b8532597-c37f-4b3d-8da0-8dde3294ba17")
-		)
-		(instances
-			(project "Main_Board"
-				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/f339aa79-d1b1-4b60-b951-815db04e9281"
-					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -3507,89 +3058,6 @@
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/f339aa79-d1b1-4b60-b951-815db04e9281"
 					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAV99")
-		(at 121.92 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ceea0d9-bf8e-4b49-8f6c-6da47577cbb4")
-		(property "Reference" "D9"
-			(at 121.92 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV99"
-			(at 121.92 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 121.92 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
-			(at 121.92 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
-			(at 121.92 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "50f90bda-bed7-4ed9-9e83-1cf40e894e37")
-		)
-		(pin "2"
-			(uuid "caeb4136-1ec1-48be-ab25-837fdf6f12c8")
-		)
-		(pin "3"
-			(uuid "9db640ee-77a5-4926-b74e-72600345f81c")
-		)
-		(instances
-			(project "Main_Board"
-				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/f339aa79-d1b1-4b60-b951-815db04e9281"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3906,83 +3374,6 @@
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/f339aa79-d1b1-4b60-b951-815db04e9281"
 					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 152.4 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cb0040c0-a425-458f-be91-df2b067a34c1")
-		(property "Reference" "#PWR081"
-			(at 152.4 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 152.146 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 152.4 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "efe25b23-e876-4aab-832c-2862505d3e43")
-		)
-		(instances
-			(project "Main_Board"
-				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/f339aa79-d1b1-4b60-b951-815db04e9281"
-					(reference "#PWR081")
 					(unit 1)
 				)
 			)

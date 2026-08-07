@@ -2267,7 +2267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 185.1152 120.65 0)
 			(hide yes)
 			(show_name no)
