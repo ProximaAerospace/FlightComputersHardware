@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 129.54 120.65) (xy 138.43 120.65)
+			(xy 128.27 109.22) (xy 137.16 109.22)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 128.27) (xy 138.43 128.27)
+			(xy 128.27 116.84) (xy 137.16 116.84)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 95.25) (xy 138.43 95.25)
+			(xy 128.27 83.82) (xy 137.16 83.82)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 102.87) (xy 138.43 102.87)
+			(xy 128.27 91.44) (xy 137.16 91.44)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +47,7 @@
 	)
 	(hierarchical_label "PYRO2_INPUT"
 		(shape input)
-		(at 129.54 120.65 180)
+		(at 128.27 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 	)
 	(hierarchical_label "PYRO2_CONTINUITY"
 		(shape output)
-		(at 129.54 128.27 180)
+		(at 128.27 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -69,7 +69,7 @@
 	)
 	(hierarchical_label "PYRO1_CONTINUITY"
 		(shape output)
-		(at 129.54 102.87 180)
+		(at 128.27 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -80,7 +80,7 @@
 	)
 	(hierarchical_label "PYRO1_INPUT"
 		(shape input)
-		(at 129.54 95.25 180)
+		(at 128.27 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -90,7 +90,7 @@
 		(uuid "d26690dd-a7c8-41d0-8a45-5534edb96aec")
 	)
 	(sheet
-		(at 138.43 115.57)
+		(at 137.16 104.14)
 		(size 30.48 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +106,7 @@
 		)
 		(uuid "8a13c8a5-8054-4bf0-abea-4a33e90adbcf")
 		(property "Sheetname" "Pyro_Channel2"
-			(at 138.43 114.8584 0)
+			(at 137.16 103.4284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -117,7 +117,7 @@
 			)
 		)
 		(property "Sheetfile" "PyroChannel1.kicad_sch"
-			(at 138.43 133.9346 0)
+			(at 137.16 122.5046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -128,7 +128,7 @@
 			)
 		)
 		(pin "PYRO_INPUT" input
-			(at 138.43 120.65 180)
+			(at 137.16 109.22 180)
 			(uuid "9b30a2aa-1f43-4503-b75f-cfdc830f8569")
 			(effects
 				(font
@@ -138,7 +138,7 @@
 			)
 		)
 		(pin "PYRO_CONTINUITY" output
-			(at 138.43 128.27 180)
+			(at 137.16 116.84 180)
 			(uuid "38d2a205-59e5-45ab-90c7-0de409dd7ce6")
 			(effects
 				(font
@@ -156,7 +156,7 @@
 		)
 	)
 	(sheet
-		(at 138.43 90.17)
+		(at 137.16 78.74)
 		(size 30.48 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -172,7 +172,7 @@
 		)
 		(uuid "cd6734be-dc35-4322-bfb0-ed11c8242097")
 		(property "Sheetname" "Pyro_Channel1"
-			(at 138.43 89.4584 0)
+			(at 137.16 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -183,7 +183,7 @@
 			)
 		)
 		(property "Sheetfile" "PyroChannel1.kicad_sch"
-			(at 138.43 108.5346 0)
+			(at 137.16 97.1046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -194,7 +194,7 @@
 			)
 		)
 		(pin "PYRO_INPUT" input
-			(at 138.43 95.25 180)
+			(at 137.16 83.82 180)
 			(uuid "f20595ba-bb24-4f67-b70c-a71159887be3")
 			(effects
 				(font
@@ -204,7 +204,7 @@
 			)
 		)
 		(pin "PYRO_CONTINUITY" output
-			(at 138.43 102.87 180)
+			(at 137.16 91.44 180)
 			(uuid "7c3fb71a-4a82-4aeb-ad83-c470c35bab2f")
 			(effects
 				(font
