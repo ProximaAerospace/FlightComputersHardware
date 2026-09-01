@@ -3917,7 +3917,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 58.42) (xy 110.49 58.42)
+			(xy 170.18 71.12) (xy 166.37 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4147,6 +4147,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 71.12) (xy 156.21 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79623e8-c872-4132-96d2-38f8551bbe23")
+	)
+	(wire
+		(pts
 			(xy 104.14 91.44) (xy 111.76 91.44)
 		)
 		(stroke
@@ -4224,16 +4234,6 @@
 			(type default)
 		)
 		(uuid "c5d25de1-1ddd-4ce5-a458-23f3fcd864c9")
-	)
-	(wire
-		(pts
-			(xy 118.11 58.42) (xy 125.73 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7d432ad-6749-4819-8976-2789e6f62e69")
 	)
 	(wire
 		(pts
@@ -4625,12 +4625,12 @@
 	)
 	(hierarchical_label "PYRO2_CONTINUITY"
 		(shape input)
-		(at 106.68 58.42 180)
+		(at 170.18 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "73e215bb-1303-415c-a149-691348c4f3e8")
 	)
@@ -4791,7 +4791,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 58.42 270)
+		(at 162.56 71.12 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4802,7 +4802,7 @@
 		(dnp no)
 		(uuid "0b4953a2-9732-4875-9b2d-fd9dbf3ea439")
 		(property "Reference" "R41"
-			(at 84.582 58.42 90)
+			(at 192.278 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4812,7 +4812,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 79.756 58.42 90)
+			(at 197.104 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4822,7 +4822,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 114.3 60.198 90)
+			(at 162.56 69.342 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4833,7 +4833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 58.42 0)
+			(at 162.56 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4844,7 +4844,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 58.42 0)
+			(at 162.56 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
