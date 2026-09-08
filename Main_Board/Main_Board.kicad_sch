@@ -573,6 +573,22 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 161.29 99.06)
+		(uuid "266082ff-c4fa-454e-9118-7922ba2e0d81")
+	)
+	(no_connect
+		(at 161.29 93.98)
+		(uuid "7884f1fc-850e-47f9-ac14-fd49ca2250ab")
+	)
+	(no_connect
+		(at 161.29 91.44)
+		(uuid "99a5a572-1a6f-41f6-9b63-4cc46b52358d")
+	)
+	(no_connect
+		(at 161.29 96.52)
+		(uuid "e6f5b0f3-2bb4-4e33-9db6-c4aee9a61c78")
+	)
 	(bus_entry
 		(at 105.41 111.76)
 		(size -2.54 2.54)
