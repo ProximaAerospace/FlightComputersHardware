@@ -3467,7 +3467,7 @@
 		)
 		(uuid "22535ace-0d95-4f2d-8964-b4b93dd13fa3")
 	)
-	(text "goldpin "
+	(text "Goldpin "
 		(exclude_from_sim no)
 		(at 39.116 145.034 0)
 		(effects
@@ -3489,6 +3489,16 @@
 			)
 		)
 		(uuid "932f7cf5-7fe5-43ed-9c50-76871c446b7e")
+	)
+	(text "Goldpin "
+		(exclude_from_sim no)
+		(at 188.976 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae90021f-5d07-41d6-ab45-d3491b8ba0b5")
 	)
 	(text "Core Status ALED"
 		(exclude_from_sim no)
@@ -3592,10 +3602,6 @@
 	(no_connect
 		(at 156.21 81.28)
 		(uuid "a8426659-9d4e-4d17-99ce-02fa818bb654")
-	)
-	(no_connect
-		(at 125.73 45.72)
-		(uuid "abb5319f-d424-443b-988c-cfff220c6da5")
 	)
 	(no_connect
 		(at 125.73 58.42)
@@ -3787,6 +3793,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 45.72) (xy 125.73 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b944731-b2fb-45f8-8620-03404ce9c8da")
+	)
+	(wire
+		(pts
 			(xy 223.52 80.01) (xy 223.52 81.28)
 		)
 		(stroke
@@ -3927,6 +3943,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 148.59) (xy 201.93 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2b6548-f1ce-42d0-b7b8-868ea3fcb9c0")
+	)
+	(wire
+		(pts
 			(xy 200.66 30.48) (xy 201.93 30.48)
 		)
 		(stroke
@@ -4007,7 +4033,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 40.64) (xy 125.73 40.64)
+			(xy 113.03 40.64) (xy 125.73 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4194,6 +4220,16 @@
 			(type default)
 		)
 		(uuid "a79623e8-c872-4132-96d2-38f8551bbe23")
+	)
+	(wire
+		(pts
+			(xy 213.36 142.24) (xy 199.39 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aecfec6f-2db8-4d16-a428-7d19ec7c8707")
 	)
 	(wire
 		(pts
@@ -4467,6 +4503,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 144.78) (xy 199.39 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f103634b-1bfb-4880-95a7-655f1d256398")
+	)
+	(wire
+		(pts
 			(xy 140.97 29.21) (xy 140.97 35.56)
 		)
 		(stroke
@@ -4545,6 +4591,16 @@
 		)
 		(uuid "3b2f18ee-55d0-4c64-9942-3624e4c61fae")
 	)
+	(label "ESP32_BOOT"
+		(at 213.36 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52739924-4ef0-4788-8f1a-71b4ca1fb2be")
+	)
 	(label "IO1 {slash} MISO"
 		(at 92.71 73.66 0)
 		(effects
@@ -4566,7 +4622,7 @@
 		(uuid "850a8032-8de7-47dd-ad6b-3b2e35156a85")
 	)
 	(label "ESP32_EN"
-		(at 114.3 40.64 0)
+		(at 113.03 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4594,6 +4650,16 @@
 			(justify left bottom)
 		)
 		(uuid "b214e61d-af5d-4356-9ee2-2b353b6a0105")
+	)
+	(label "ESP32_BOOT"
+		(at 113.03 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c73b95d3-b6a7-4cb3-916b-4b58172f967a")
 	)
 	(hierarchical_label "MODULE_BUS_RST"
 		(shape input)
@@ -6012,6 +6078,86 @@
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/cbc83c60-d43e-479b-a6b3-ba8e24d176e0"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 194.31 144.78 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b37f99a-f4e6-4f0c-acab-817e7e9b7c61")
+		(property "Reference" "J5"
+			(at 194.31 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BOOT"
+			(at 194.31 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
+			(at 194.31 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 194.31 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c9827e1f-ff56-4590-a782-d0c03dc183ab")
+		)
+		(pin "1"
+			(uuid "d0f80ee8-81ba-49fa-8841-aec582a96977")
+		)
+		(instances
+			(project "Main_Board"
+				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/cbc83c60-d43e-479b-a6b3-ba8e24d176e0"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -7633,6 +7779,84 @@
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/cbc83c60-d43e-479b-a6b3-ba8e24d176e0"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d04657b-9064-4b5b-bb77-63460ca39f5a")
+		(property "Reference" "#PWR098"
+			(at 201.93 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d513d32-81ba-48b0-bc65-29ee458fe4e6")
+		)
+		(instances
+			(project "Main_Board"
+				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/cbc83c60-d43e-479b-a6b3-ba8e24d176e0"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -9279,7 +9503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 44.45 146.05 0)
 			(hide yes)
 			(show_name no)
