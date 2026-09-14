@@ -4093,7 +4093,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 83.82) (xy 156.21 83.82)
+			(xy 168.91 81.28) (xy 156.21 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4773,7 +4773,7 @@
 	)
 	(hierarchical_label "3v3_PG"
 		(shape input)
-		(at 170.18 83.82 0)
+		(at 168.91 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5313,7 +5313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "10k"
 			(at 62.23 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
