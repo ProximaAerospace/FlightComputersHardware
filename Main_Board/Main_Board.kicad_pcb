@@ -7769,7 +7769,7 @@
 			(effects
 				(font
 					(size 0.7 0.7)
-					(thickness 0.2)
+					(thickness 0.175)
 				)
 			)
 		)
@@ -8151,6 +8151,17 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/VSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/3D Models/THVD1450DRBR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
