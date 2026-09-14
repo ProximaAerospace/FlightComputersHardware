@@ -2469,7 +2469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TLV61070A"
+		(property "Value" "THVD1450DRBR"
 			(at 151.13 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
