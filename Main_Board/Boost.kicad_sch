@@ -1007,6 +1007,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Inductor: Murata DFE322520FD-2R2M=P2"
+		(exclude_from_sim no)
+		(at 134.112 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8dbaed6c-8b97-460b-8e3d-1c75041c653e")
+	)
 	(junction
 		(at 222.25 95.25)
 		(diameter 0)
@@ -2051,7 +2061,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1,5 uH"
+		(property "Value" "4,7uH"
 			(at 137.16 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2062,7 +2072,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_MD-3030"
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
 			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
