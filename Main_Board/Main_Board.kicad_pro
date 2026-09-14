@@ -78,27 +78,11 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|109900000|107639542|94390c3c-48e2-4ddd-b27d-12389f8b2a94|9fa8456e-34ae-403f-9a86-2e976a172607",
-          ""
-        ],
-        [
           "copper_edge_clearance|80420609|88914091|7a6e5318-bf1f-403a-907c-870983c1dbeb|9b99c65f-fc73-4ddc-a535-d7389dd15c14",
           ""
         ],
         [
           "copper_edge_clearance|91000000|115400000|41e765cb-d784-420e-ab49-642c9fe2e6a2|e73a5782-7233-48cb-b2c5-3656fb56a584",
-          ""
-        ],
-        [
-          "copper_edge_clearance|91200000|115948177|41e765cb-d784-420e-ab49-642c9fe2e6a2|5c2aff93-7338-40ff-8f16-5c24326996b9",
-          ""
-        ],
-        [
-          "copper_edge_clearance|92500000|115948177|41e765cb-d784-420e-ab49-642c9fe2e6a2|4e26565f-1038-47e6-8328-8d279f45ebbe",
-          ""
-        ],
-        [
-          "copper_edge_clearance|93800000|115948177|41e765cb-d784-420e-ab49-642c9fe2e6a2|7c68dd7b-dee3-4759-a6e8-a41b88e2a03b",
           ""
         ],
         [
@@ -187,10 +171,6 @@
         ],
         [
           "silk_edge_clearance|93424567|115900000|41e765cb-d784-420e-ab49-642c9fe2e6a2|026448dd-a995-4c6d-ae1f-8219717dbfbe",
-          ""
-        ],
-        [
-          "silk_overlap|90758596|107665941|c8e3ba28-29ff-4f66-9df9-ed92e4ce2127|d722c6f6-dc97-4996-9676-bdc44d9d6455",
           ""
         ],
         [
@@ -355,10 +335,6 @@
         ],
         [
           "text_height|115550000|96450000|ca7e69aa-47ee-476f-94f6-01703e4c88fd|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_height|115980204|113850000|44b843cc-cc65-4f8b-801d-054f0855c6ae|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -560,7 +536,7 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "error",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
@@ -1226,7 +1202,7 @@
         "uuid": "7481738f-7c20-40bb-99b0-6ccd4168db33"
       }
     ],
-    "used_designators": "D9-10,#PWR65-68,#PWR71-73,#PWR78-81,#PWR83-86,#PWR97-98,C27-30,J5,R6,R30,R42-43,NT1",
+    "used_designators": "D9-10,#PWR65-68,#PWR71-73,#PWR75,#PWR77-81,#PWR83-86,#PWR97-99,C27-30,J5,R6,R30,R42-43,NT1",
     "variants": []
   },
   "sheets": [
