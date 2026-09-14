@@ -1009,13 +1009,23 @@
 	)
 	(text "Inductor: Murata DFE322520FD-2R2M=P2"
 		(exclude_from_sim no)
-		(at 134.112 74.93 0)
+		(at 134.366 75.184 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "8dbaed6c-8b97-460b-8e3d-1c75041c653e")
+	)
+	(text "C23-C25 = GRM188R61A106MAAL"
+		(exclude_from_sim no)
+		(at 182.626 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c50e0f1f-1b1e-48bf-a1d8-34194d8ecd6f")
 	)
 	(junction
 		(at 222.25 95.25)
