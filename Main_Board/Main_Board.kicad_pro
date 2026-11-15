@@ -426,10 +426,6 @@
           ""
         ],
         [
-          "text_height|90150000|103850000|5d37f555-a351-42d6-a53f-3abf3565a4a7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "text_height|90750000|92150000|b9a53b5d-9937-4920-bb52-712c390ad1da|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -599,6 +595,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -610,6 +607,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -621,6 +619,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -1018,6 +1017,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -1065,8 +1065,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -1198,7 +1198,7 @@
         "uuid": "7481738f-7c20-40bb-99b0-6ccd4168db33"
       }
     ],
-    "used_designators": "D9-10,#PWR65-68,#PWR71-73,#PWR75,#PWR77-81,#PWR83-86,#PWR97-101,C27-30,J5,R6,R30,R42-43,NT1,U8",
+    "used_designators": "#FLG1-2,#PWR65-68,#PWR71-73,#PWR75,#PWR77-81,#PWR83-86,#PWR97-101,C27-30,D9-10,J5,NT1,R6,R30,R42-45,U8-12",
     "variants": []
   },
   "sheets": [
@@ -1216,11 +1216,11 @@
     ],
     [
       "e4d6a556-b941-4281-9894-082d2c9d6330",
-      "Back_Boost1"
+      "Main_BuckBoost"
     ],
     [
       "3118dc10-c2bc-4975-93f1-e70ef5dc8ae3",
-      "Back_Boost2"
+      "Secondary_BuckBoost"
     ],
     [
       "0e0beba8-65f6-4fdb-a51c-805313830f65",

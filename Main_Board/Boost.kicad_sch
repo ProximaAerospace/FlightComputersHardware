@@ -1007,7 +1007,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Inductor: Murata DFE322520FD-2R2M=P2"
+	(text "Inductor: Murata DFE322520FD-2R2M"
 		(exclude_from_sim no)
 		(at 134.366 75.184 0)
 		(effects
@@ -2071,7 +2071,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4,7uH"
+		(property "Value" "2.2uH"
 			(at 137.16 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2093,7 +2093,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "LQH3NPN1R5MJRL"
+		(property "Datasheet" "DFE322520FD-2R2M=P2"
 			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2115,7 +2115,7 @@
 				)
 			)
 		)
-		(property "PN" "LQH3NPN1R5MJRL"
+		(property "PN" "DFE322520FD-2R2M=P2"
 			(at 133.35 83.82 90)
 			(hide yes)
 			(show_name no)

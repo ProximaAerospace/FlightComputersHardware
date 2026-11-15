@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Project")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Project.pretty")(options "")(descr "Project footprints"))
+  (lib (name "sk6805-1515")(type "KiCad")(uri "${KIPRJMOD}/Libraries/sk6805-1515.pretty")(options "")(descr "SK6805/SK6812 1515 LED footprint"))
+)

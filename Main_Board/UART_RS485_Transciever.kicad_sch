@@ -536,18 +536,19 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -6.985 13.97 0)
+			(property "Reference" "U7"
+				(at 1.27 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "THVD1450DR"
-				(at 1.905 13.97 0)
+			(property "Value" "THVD1450DRBR"
+				(at 1.27 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -980,6 +981,24 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -1280,6 +1299,12 @@
 		(uuid "81096493-692f-4c7a-9fb3-7aa4c3cd1b7f")
 	)
 	(junction
+		(at 149.86 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2f04f0e-7390-4677-8580-b1bc9c4c67c9")
+	)
+	(junction
 		(at 110.49 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1317,6 +1342,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 118.11) (xy 149.86 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007e90e5-eee3-4efe-b317-61bb07b11991")
+	)
+	(wire
+		(pts
 			(xy 181.61 95.25) (xy 181.61 107.95)
 		)
 		(stroke
@@ -1334,6 +1369,16 @@
 			(type default)
 		)
 		(uuid "0e951612-46e3-4f32-94ae-98a4bc7859ff")
+	)
+	(wire
+		(pts
+			(xy 160.02 110.49) (xy 160.02 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1019d8b7-170c-47c5-a52a-b17fae42ce90")
 	)
 	(wire
 		(pts
@@ -2459,7 +2504,7 @@
 		(dnp no)
 		(uuid "5d8ddc16-1381-47c5-9e91-3675fb9590a2")
 		(property "Reference" "U7"
-			(at 151.13 115.57 0)
+			(at 150.876 83.058 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2470,7 +2515,7 @@
 			)
 		)
 		(property "Value" "THVD1450DRBR"
-			(at 151.13 118.11 0)
+			(at 150.876 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2547,6 +2592,9 @@
 		)
 		(pin "1"
 			(uuid "39902086-ad4f-4dbe-9d3a-93203a0b5e14")
+		)
+		(pin "9"
+			(uuid "96db5d52-f835-4aea-82c8-42ba53a50196")
 		)
 		(instances
 			(project "Main_Board"
