@@ -1040,6 +1040,12 @@
 		(uuid "66a60bf7-948f-4450-b92e-619867e6e4ad")
 	)
 	(junction
+		(at 135.89 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79d75c16-e22f-4856-a026-7811db03991c")
+	)
+	(junction
 		(at 100.33 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1317,6 +1323,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 96.52) (xy 140.97 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867b579b-4d44-4241-a0d8-dd29fd2e5a67")
+	)
+	(wire
+		(pts
 			(xy 129.54 101.6) (xy 129.54 96.52)
 		)
 		(stroke
@@ -1344,6 +1360,16 @@
 			(type default)
 		)
 		(uuid "8956fd57-6ae5-4619-8869-b8f9bfd50fc1")
+	)
+	(wire
+		(pts
+			(xy 135.89 91.44) (xy 135.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0eadc0-2797-45aa-97e7-80d3a0006a67")
 	)
 	(wire
 		(pts
@@ -1384,6 +1410,16 @@
 			(type default)
 		)
 		(uuid "9af9d5ad-a379-4fe5-b5cc-7ef71e69c06a")
+	)
+	(wire
+		(pts
+			(xy 83.82 91.44) (xy 83.82 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fbb35b-0a66-4b52-8eb3-ba3fa4ab7c89")
 	)
 	(wire
 		(pts
@@ -1437,7 +1473,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 96.52) (xy 140.97 96.52)
+			(xy 129.54 96.52) (xy 135.89 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2187,7 +2223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_DRC0010J_ThermalVias"
+		(property "Footprint" "Project:Texas_DRC0010J_ThermalVias"
 			(at 172.72 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2338,6 +2374,82 @@
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/e4d6a556-b941-4281-9894-082d2c9d6330"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 135.89 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a24d438c-6bf8-4bcc-a5a1-90fb9d224511")
+		(property "Reference" "#FLG11"
+			(at 135.89 89.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 135.89 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d77d7cc-9304-4807-81d9-12f82c5c707b")
+		)
+		(instances
+			(project "Main_Board"
+				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33/4704f5be-58a0-4191-b01f-84980581c4a3/e4d6a556-b941-4281-9894-082d2c9d6330"
+					(reference "#FLG11")
 					(unit 1)
 				)
 			)
@@ -2505,7 +2617,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 83.82 93.98 0)
+		(at 83.82 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2516,7 +2628,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb520dd1-3ddd-4e8c-876e-71ab5cd158e9")
 		(property "Reference" "#FLG01"
-			(at 83.82 92.075 0)
+			(at 83.82 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2527,7 +2639,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 83.82 88.9 0)
+			(at 83.82 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2537,7 +2649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 93.98 0)
+			(at 83.82 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2548,7 +2660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 93.98 0)
+			(at 83.82 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2559,7 +2671,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 83.82 93.98 0)
+			(at 83.82 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

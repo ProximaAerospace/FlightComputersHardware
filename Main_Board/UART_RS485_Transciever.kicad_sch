@@ -530,7 +530,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_UART:THVD1450DR"
+		(symbol "Project:THVD1450DR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -981,7 +981,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 10.16 -10.16 180)
 					(length 2.54)
 					(name "PAD"
@@ -2493,7 +2493,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_UART:THVD1450DR")
+		(lib_id "Project:THVD1450DR")
 		(at 149.86 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -2525,7 +2525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:VSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm"
+		(property "Footprint" "Project:VSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm"
 			(at 149.86 130.81 0)
 			(hide yes)
 			(show_name no)

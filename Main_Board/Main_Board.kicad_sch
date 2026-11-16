@@ -147,7 +147,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
+		(symbol "Project:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
 			)
@@ -224,7 +224,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
+			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -572,22 +572,121 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(no_connect
-		(at 161.29 99.06)
-		(uuid "266082ff-c4fa-454e-9118-7922ba2e0d81")
-	)
-	(no_connect
-		(at 161.29 93.98)
-		(uuid "7884f1fc-850e-47f9-ac14-fd49ca2250ab")
-	)
-	(no_connect
-		(at 161.29 91.44)
-		(uuid "99a5a572-1a6f-41f6-9b63-4cc46b52358d")
-	)
-	(no_connect
-		(at 161.29 96.52)
-		(uuid "e6f5b0f3-2bb4-4e33-9db6-c4aee9a61c78")
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(bus_entry
 		(at 105.41 111.76)
@@ -849,15 +948,15 @@
 		)
 		(uuid "7cf5dd04-d363-4ae2-a529-26a79d417583")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 102.87 132.08) (xy 102.87 137.16)
+			(xy 31.75 31.75) (xy 39.37 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b020adf-cf6a-42fe-8145-1119fbd55540")
+		(uuid "89a9effb-80ad-4d17-8d0e-2f084c4936d9")
 	)
 	(wire
 		(pts
@@ -878,6 +977,16 @@
 			(type default)
 		)
 		(uuid "93691d84-3eae-4236-9fc5-f7c0abbefb47")
+	)
+	(bus
+		(pts
+			(xy 102.87 111.76) (xy 102.87 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c9debc-e276-4c42-82a7-7240f037c922")
 	)
 	(wire
 		(pts
@@ -971,6 +1080,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 35.56) (xy 119.38 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b331b102-504b-442b-a2f1-ecb93de22c2c")
+	)
+	(wire
+		(pts
 			(xy 101.6 97.79) (xy 111.76 97.79)
 		)
 		(stroke
@@ -1028,16 +1147,6 @@
 			(type default)
 		)
 		(uuid "c61a852d-450a-4604-afbc-c06c5ef11ad3")
-	)
-	(bus
-		(pts
-			(xy 102.87 111.76) (xy 102.87 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c741f784-8101-4130-aefe-d947f807f480")
 	)
 	(wire
 		(pts
@@ -1168,6 +1277,16 @@
 			(justify left bottom)
 		)
 		(uuid "711a4fd2-4b02-43e8-bf26-644ddc980843")
+	)
+	(label "{MODBUS_TX MODBUS_RX MODBUS_DIR MODBUS_SYNC MODBUS_RST}"
+		(at 102.87 137.16 90)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a4c3597-5194-45d4-a187-bf9d0bcf58e1")
 	)
 	(label "MODBUS_TX"
 		(at 105.41 106.68 0)
@@ -1358,7 +1477,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Project:MountingHole_Pad")
 		(at 49.53 27.94 0)
 		(unit 1)
 		(body_style 1)
@@ -1432,6 +1551,82 @@
 			(project "Main_Board"
 				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 119.38 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24dd9ba6-e013-46cd-8c30-9706c2e1a226")
+		(property "Reference" "#FLG32"
+			(at 119.38 33.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 119.38 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c8df3a4-7288-41bc-ab43-9884e5f3df5f")
+		)
+		(instances
+			(project "Main_Board"
+				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33"
+					(reference "#FLG32")
 					(unit 1)
 				)
 			)
@@ -1672,7 +1867,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Project:MountingHole_Pad")
 		(at 58.42 27.94 0)
 		(unit 1)
 		(body_style 1)
@@ -1830,7 +2025,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Project:MountingHole_Pad")
 		(at 31.75 27.94 0)
 		(unit 1)
 		(body_style 1)
@@ -1910,7 +2105,83 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "power:PWR_FLAG")
+		(at 39.37 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b5a37ca-76b5-4ec3-90e3-e08fbd3b9eab")
+		(property "Reference" "#FLG31"
+			(at 39.37 29.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 39.37 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfce022f-3881-4ea4-b190-bc77abd5e177")
+		)
+		(instances
+			(project "Main_Board"
+				(path "/7481738f-7c20-40bb-99b0-6ccd4168db33"
+					(reference "#FLG31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project:MountingHole_Pad")
 		(at 40.64 27.94 0)
 		(unit 1)
 		(body_style 1)
@@ -2285,46 +2556,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "MOSI_SPI3" input
-			(at 161.29 91.44 0)
-			(uuid "a1c6ffe4-c145-4a70-af4b-6f28d3203ab1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MISO_SPI3" output
-			(at 161.29 93.98 0)
-			(uuid "9b67b233-ffb3-42ea-813b-fadadd9b8735")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CS1_SPI3" output
-			(at 161.29 96.52 0)
-			(uuid "5b9f60f8-3580-4488-be48-ec4cd5f2e4e8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CLK_SPI3" output
-			(at 161.29 99.06 0)
-			(uuid "5d36ca97-881c-4752-bd36-d5c1188eb3cc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "MODULE_BUS_RX" input
