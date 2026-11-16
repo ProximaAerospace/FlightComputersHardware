@@ -688,6 +688,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 250.19 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04ec9adf-c822-4eb3-b912-56d79436ac8e")
+	)
+	(junction
+		(at 233.68 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23213e7f-b97c-4b34-8a8a-d4bd093b3eb9")
+	)
 	(bus_entry
 		(at 105.41 111.76)
 		(size -2.54 2.54)
@@ -780,13 +792,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 30.48) (xy 58.42 31.75)
+			(xy 260.35 33.02) (xy 260.35 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "141ad1eb-ca9a-43be-903c-ddd2613be735")
+	)
+	(wire
+		(pts
+			(xy 233.68 33.02) (xy 233.68 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15008f62-3c14-4cfb-9204-bf9265ba7fc6")
 	)
 	(wire
 		(pts
@@ -870,7 +892,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 30.48) (xy 40.64 31.75)
+			(xy 242.57 33.02) (xy 242.57 35.56)
 		)
 		(stroke
 			(width 0)
@@ -950,7 +972,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 31.75) (xy 39.37 31.75)
+			(xy 233.68 34.29) (xy 233.68 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8869e3da-56de-437a-94c0-e087d8ccd880")
+	)
+	(wire
+		(pts
+			(xy 233.68 34.29) (xy 226.06 34.29)
 		)
 		(stroke
 			(width 0)
@@ -990,7 +1022,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 30.48) (xy 111.76 30.48)
+			(xy 246.38 57.15) (xy 250.19 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1000,7 +1032,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 30.48) (xy 49.53 31.75)
+			(xy 251.46 33.02) (xy 251.46 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1038,16 +1070,6 @@
 		)
 		(uuid "a6b82917-d591-462a-ab63-8c331c2985dc")
 	)
-	(wire
-		(pts
-			(xy 31.75 30.48) (xy 31.75 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac7969ce-a564-4075-b529-a3ba76748983")
-	)
 	(bus
 		(pts
 			(xy 102.87 109.22) (xy 102.87 111.76)
@@ -1080,7 +1102,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 35.56) (xy 119.38 35.56)
+			(xy 250.19 62.23) (xy 257.81 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1140,7 +1162,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 30.48) (xy 102.87 30.48)
+			(xy 238.76 57.15) (xy 241.3 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1180,7 +1202,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 30.48) (xy 111.76 35.56)
+			(xy 250.19 57.15) (xy 250.19 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1200,7 +1222,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 35.56) (xy 100.33 30.48)
+			(xy 238.76 62.23) (xy 238.76 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1320,7 +1342,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 105.41 30.48 0)
+		(at 243.84 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1331,7 +1353,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b000464-30d9-4e36-aefb-863ee644b175")
 		(property "Reference" "NT1"
-			(at 105.41 25.4 0)
+			(at 243.84 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1341,7 +1363,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 105.41 27.94 0)
+			(at 243.84 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1351,7 +1373,7 @@
 			)
 		)
 		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
-			(at 105.41 30.48 0)
+			(at 243.84 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1362,7 +1384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 30.48 0)
+			(at 243.84 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1373,7 +1395,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 105.41 30.48 0)
+			(at 243.84 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1400,7 +1422,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 31.75 0)
+		(at 260.35 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1411,7 +1433,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bab190f-ccec-4f6e-80e1-f0728fe6d58f")
 		(property "Reference" "#PWR04"
-			(at 58.42 38.1 0)
+			(at 260.35 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1422,7 +1444,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 36.83 0)
+			(at 260.35 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1432,7 +1454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 31.75 0)
+			(at 260.35 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1443,7 +1465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 31.75 0)
+			(at 260.35 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1454,7 +1476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 31.75 0)
+			(at 260.35 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1478,7 +1500,7 @@
 	)
 	(symbol
 		(lib_id "Project:MountingHole_Pad")
-		(at 49.53 27.94 0)
+		(at 251.46 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1489,7 +1511,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f49d353-601e-4afd-8664-1a9eadf5c3c7")
 		(property "Reference" "H3"
-			(at 52.07 25.3999 0)
+			(at 254 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1500,7 +1522,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 52.07 27.9399 0)
+			(at 254 30.4799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1512,7 +1534,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 49.53 27.94 0)
+			(at 251.46 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1523,7 +1545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 27.94 0)
+			(at 251.46 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1534,7 +1556,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 49.53 27.94 0)
+			(at 251.46 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1558,7 +1580,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 119.38 35.56 0)
+		(at 257.81 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1568,7 +1590,7 @@
 		(dnp no)
 		(uuid "24dd9ba6-e013-46cd-8c30-9706c2e1a226")
 		(property "Reference" "#FLG32"
-			(at 119.38 33.66 0)
+			(at 257.81 60.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1579,7 +1601,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 119.38 31.75 0)
+			(at 257.81 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1589,7 +1611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 35.56 0)
+			(at 257.81 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1600,7 +1622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 35.56 0)
+			(at 257.81 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1611,7 +1633,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 35.56 0)
+			(at 257.81 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1634,7 +1656,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 31.75 0)
+		(at 233.68 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1645,7 +1667,7 @@
 		(fields_autoplaced yes)
 		(uuid "25863fae-c347-4f6d-a786-439736f5e59f")
 		(property "Reference" "#PWR01"
-			(at 31.75 38.1 0)
+			(at 233.68 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1656,7 +1678,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 36.83 0)
+			(at 233.68 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1666,7 +1688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 31.75 0)
+			(at 233.68 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1677,7 +1699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 31.75 0)
+			(at 233.68 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1688,7 +1710,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 31.75 0)
+			(at 233.68 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1712,7 +1734,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 31.75 0)
+		(at 242.57 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1723,7 +1745,7 @@
 		(fields_autoplaced yes)
 		(uuid "49c2ec21-cb62-490e-b875-f44c83984176")
 		(property "Reference" "#PWR02"
-			(at 40.64 38.1 0)
+			(at 242.57 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1734,7 +1756,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 36.83 0)
+			(at 242.57 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1744,7 +1766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 31.75 0)
+			(at 242.57 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1755,7 +1777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 31.75 0)
+			(at 242.57 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1766,7 +1788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 31.75 0)
+			(at 242.57 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1790,7 +1812,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 31.75 0)
+		(at 251.46 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1801,7 +1823,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d4b5364-2e91-42b3-94c6-1ad8959456bd")
 		(property "Reference" "#PWR03"
-			(at 49.53 38.1 0)
+			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1812,7 +1834,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 36.83 0)
+			(at 251.46 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1822,7 +1844,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 31.75 0)
+			(at 251.46 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1833,7 +1855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 31.75 0)
+			(at 251.46 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1844,7 +1866,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 31.75 0)
+			(at 251.46 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1868,7 +1890,7 @@
 	)
 	(symbol
 		(lib_id "Project:MountingHole_Pad")
-		(at 58.42 27.94 0)
+		(at 260.35 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1879,7 +1901,7 @@
 		(fields_autoplaced yes)
 		(uuid "62848146-1357-4d77-b7da-ad8706e44ac5")
 		(property "Reference" "H4"
-			(at 60.96 25.3999 0)
+			(at 262.89 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1890,7 +1912,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 60.96 27.9399 0)
+			(at 262.89 30.4799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1902,7 +1924,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 58.42 27.94 0)
+			(at 260.35 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1913,7 +1935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 27.94 0)
+			(at 260.35 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1924,7 +1946,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 58.42 27.94 0)
+			(at 260.35 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1948,7 +1970,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 35.56 0)
+		(at 238.76 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1956,10 +1978,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6a91da41-14b2-4201-a12b-254d4f9d6de1")
 		(property "Reference" "#PWR065"
-			(at 100.33 41.91 0)
+			(at 238.76 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1970,7 +1991,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 40.64 0)
+			(at 238.76 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1980,7 +2001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 35.56 0)
+			(at 238.76 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1991,7 +2012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 35.56 0)
+			(at 238.76 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2002,7 +2023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 35.56 0)
+			(at 238.76 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2026,7 +2047,7 @@
 	)
 	(symbol
 		(lib_id "Project:MountingHole_Pad")
-		(at 31.75 27.94 0)
+		(at 233.68 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2037,7 +2058,7 @@
 		(fields_autoplaced yes)
 		(uuid "94958b64-efc9-4ad1-a52b-910740549dcf")
 		(property "Reference" "H1"
-			(at 34.29 25.3999 0)
+			(at 236.22 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2048,7 +2069,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 34.29 27.9399 0)
+			(at 236.22 30.4799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2060,7 +2081,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 31.75 27.94 0)
+			(at 233.68 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2071,7 +2092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 27.94 0)
+			(at 233.68 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2082,7 +2103,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 31.75 27.94 0)
+			(at 233.68 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2106,7 +2127,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 39.37 31.75 0)
+		(at 226.06 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2116,7 +2137,7 @@
 		(dnp no)
 		(uuid "9b5a37ca-76b5-4ec3-90e3-e08fbd3b9eab")
 		(property "Reference" "#FLG31"
-			(at 39.37 29.84 0)
+			(at 226.06 32.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2127,7 +2148,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 39.37 27.94 0)
+			(at 226.06 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2137,7 +2158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 31.75 0)
+			(at 226.06 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2148,7 +2169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 31.75 0)
+			(at 226.06 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2159,7 +2180,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 31.75 0)
+			(at 226.06 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2182,7 +2203,7 @@
 	)
 	(symbol
 		(lib_id "Project:MountingHole_Pad")
-		(at 40.64 27.94 0)
+		(at 242.57 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2193,7 +2214,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea38ff6c-5e43-4215-bd38-d33b8fcbd294")
 		(property "Reference" "H2"
-			(at 43.18 25.3999 0)
+			(at 245.11 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2204,7 +2225,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 43.18 27.9399 0)
+			(at 245.11 30.4799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2216,7 +2237,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 40.64 27.94 0)
+			(at 242.57 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2227,7 +2248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 27.94 0)
+			(at 242.57 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2238,7 +2259,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 40.64 27.94 0)
+			(at 242.57 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2262,7 +2283,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 111.76 35.56 0)
+		(at 250.19 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2273,7 +2294,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2ad7be3-f71a-4cf6-b307-c42cd227b4fd")
 		(property "Reference" "#PWR066"
-			(at 111.76 40.64 0)
+			(at 250.19 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2284,7 +2305,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 111.633 39.37 0)
+			(at 250.063 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2294,7 +2315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 36.83 0)
+			(at 250.19 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2305,7 +2326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 36.83 0)
+			(at 250.19 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2316,7 +2337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 111.76 35.56 0)
+			(at 250.19 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
