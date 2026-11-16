@@ -1133,19 +1133,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Policzyć Rilm gdy będzie wiadomy docelowy pobór!"
-		(exclude_from_sim no)
-		(at 143.764 128.778 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "101d40f3-85a2-4c52-9666-387a627a4f45")
-	)
 	(junction
 		(at 177.8 111.76)
 		(diameter 0)
@@ -1418,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 118.11) (xy 102.87 111.76)
+			(xy 102.87 118.11) (xy 102.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1648,7 +1635,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 106.68) (xy 102.87 105.41)
+			(xy 102.87 109.22) (xy 102.87 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3021,7 +3008,7 @@
 	)
 	(symbol
 		(lib_id "Project:Jumper_2_Small_Open")
-		(at 102.87 109.22 270)
+		(at 102.87 111.76 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3031,7 +3018,7 @@
 		(dnp no)
 		(uuid "e88f2f38-b2de-4025-8b2e-75630200d9c5")
 		(property "Reference" "JP1"
-			(at 103.378 112.268 90)
+			(at 104.648 110.744 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3042,7 +3029,7 @@
 			)
 		)
 		(property "Value" "R&D_still_on"
-			(at 103.378 114.808 90)
+			(at 104.648 113.284 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3053,7 +3040,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 102.87 109.22 0)
+			(at 102.87 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3064,7 +3051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 109.22 0)
+			(at 102.87 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3075,7 +3062,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 102.87 109.22 0)
+			(at 102.87 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
