@@ -399,7 +399,7 @@
 		(uuid "674e08a9-db3c-4fc3-802f-fecabd35d31f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Texas_DRC0010J.step"
+	(model "${KIPRJMOD}/3D Models/VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

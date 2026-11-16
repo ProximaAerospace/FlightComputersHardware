@@ -1288,7 +1288,7 @@
 			(uuid "674e08a9-db3c-4fc3-802f-fecabd35d31f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Texas_DRC0010J.step"
+		(model "${KIPRJMOD}/3D Models/VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18222,7 +18222,7 @@
 			(uuid "4c35e933-e2c6-420f-bbba-4d08bd68d7f7")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\pawci\\Documents\\GitHub\\FlightComputersHardware\\Main_Board\\Libraries\\SamacSys_Parts.3dshapes\\15EDGVC-3.5-02P-14-00A_H_.stp"
+		(model "${KIPRJMOD}/Libraries/SamacSys_Parts.3dshapes/15EDGVC-3.5-02P-14-00A_H_.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19998,7 +19998,7 @@
 			(uuid "623539f3-03c8-4500-b2c2-f4b92898f373")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\pawci\\Documents\\GitHub\\FlightComputersHardware\\Main_Board\\Libraries\\SamacSys_Parts.3dshapes\\15EDGVC-3.5-02P-14-00A_H_.stp"
+		(model "${KIPRJMOD}/Libraries/SamacSys_Parts.3dshapes/15EDGVC-3.5-02P-14-00A_H_.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27726,7 +27726,7 @@
 			(uuid "b706ae76-b639-41b3-ad7f-b4d9df832231")
 		)
 		(embedded_fonts no)
-		(model "C:\\Users\\pawci\\Documents\\GitHub\\FlightComputersHardware\\Main_Board\\Libraries\\SamacSys_Parts.3dshapes\\TPS25200DRVR.stp"
+		(model "${KIPRJMOD}/Libraries/SamacSys_Parts.3dshapes/TPS25200DRVR.stp"
 			(offset
 				(xyz 0 0 0)
 			)

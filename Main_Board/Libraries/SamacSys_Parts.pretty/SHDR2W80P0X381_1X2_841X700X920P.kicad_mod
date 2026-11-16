@@ -24,7 +24,7 @@
   (fp_line (start -2.3 -4) (end -2.3 0) (layer F.SilkS) (width 0.2))
   (pad 1 thru_hole rect (at 0 0) (size 2.025 2.025) (drill 1.35) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 3.81 0) (size 2.025 2.025) (drill 1.35) (layers *.Cu *.Mask))
-  (model "C:\\Users\\pawci\\Documents\\GitHub\\FlightComputersHardware\\Main_Board\\Libraries\\SamacSys_Parts.3dshapes\\15EDGVC-3.5-02P-14-00A_H_.stp"
+  (model "${KIPRJMOD}/Libraries/SamacSys_Parts.3dshapes/15EDGVC-3.5-02P-14-00A_H_.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
