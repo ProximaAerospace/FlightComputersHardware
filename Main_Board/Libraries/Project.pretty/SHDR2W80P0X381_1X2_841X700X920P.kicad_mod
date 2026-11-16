@@ -1,0 +1,219 @@
+(footprint "SHDR2W80P0X381_1X2_841X700X920P"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "15EDGVC-3.5-02P-14-00A(H)")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 1.96 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "85a3412d-ec51-49c3-8904-60552715243a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "Terminal"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "39528990-1497-45a3-838a-782d1d25cebd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7685a733-ce90-44f2-be67-63f213e1f4cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b83f6811-4dea-4c53-b22a-b733f709ebf7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property ki_fp_filters "TerminalBlock*:*")
+	(sheetname "/Pyro_Channels (page 10)/Pyro_Channel1/")
+	(sheetfile "PyroChannel1.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.3 -4.000001)
+		(end -2.300001 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fb3bcd2-292a-48c8-9a70-3d0327875a4e")
+	)
+	(fp_line
+		(start 0 3)
+		(end 5.76 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed508465-f0b9-4cf4-94aa-35ae24f2c0ee")
+	)
+	(fp_line
+		(start 5.76 -4.000001)
+		(end -2.3 -4.000001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56667d47-7791-48ca-9696-83c0af1b1f25")
+	)
+	(fp_line
+		(start 5.76 3)
+		(end 5.76 -4.000001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eefd733a-973f-4870-953c-0e1d045ec66e")
+	)
+	(fp_line
+		(start -2.55 -4.25)
+		(end 6.36 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a883ce82-1238-467d-b771-7ac4f530be4c")
+	)
+	(fp_line
+		(start -2.55 3.25)
+		(end -2.55 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca441fca-706f-4618-9a56-b6d4c2ab2aef")
+	)
+	(fp_line
+		(start 6.36 -4.25)
+		(end 6.36 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "037c81aa-2d1a-4f11-ae0d-ba4937160b06")
+	)
+	(fp_line
+		(start 6.36 3.25)
+		(end -2.55 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "163659ad-ad48-4355-8ff5-ff983210f263")
+	)
+	(fp_line
+		(start -2.3 -4.000001)
+		(end 6.11 -4.000001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d960c17c-9c63-4aa2-a22b-6bb725934b2c")
+	)
+	(fp_line
+		(start -2.3 3)
+		(end -2.3 -4.000001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c732af9-4505-4c87-a081-3d50841cabf5")
+	)
+	(fp_line
+		(start 6.11 -4.000001)
+		(end 6.11 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02a326af-3b6a-4813-ad7a-71c3ed2b883c")
+	)
+	(fp_line
+		(start 6.11 3)
+		(end -2.3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53a15832-fcff-4efc-932f-70d817de7d16")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1dbd2a83-908f-4829-8e03-807008216bca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.025 2.025)
+		(drill 1.35)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+		(remove_unused_layers no)
+		(uuid "0485aa4b-3c2d-40da-8354-0fa43bde2293")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 2.025 2.025)
+		(drill 1.35)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+		(remove_unused_layers no)
+		(uuid "623539f3-03c8-4500-b2c2-f4b92898f373")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\pawci\\Documents\\GitHub\\FlightComputersHardware\\Main_Board\\Libraries\\SamacSys_Parts.3dshapes\\15EDGVC-3.5-02P-14-00A_H_.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
